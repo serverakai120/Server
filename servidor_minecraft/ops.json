@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "c7e92eb0-d98e-380c-8bf3-90f90cd9654a",
+    "name": "Akai120",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
