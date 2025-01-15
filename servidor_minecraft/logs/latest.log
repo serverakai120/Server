@@ -1,0 +1,47 @@
+[03:19:13] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:19:14] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[03:19:16] [ServerMain/INFO]: Loaded 7 recipes
+[03:19:17] [Server thread/INFO]: Starting minecraft server version 1.20
+[03:19:17] [Server thread/INFO]: Loading properties
+[03:19:17] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[03:19:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:19:17] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:19:17] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[03:19:18] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[03:19:18] [Server thread/INFO]: Default game type: SURVIVAL
+[03:19:18] [Server thread/INFO]: Generating keypair
+[03:19:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:19:18] [Server thread/INFO]: Using epoll channel type
+[03:19:18] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[03:19:18] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[03:19:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:19:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:19:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:19:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:19:18] [Server thread/INFO]: Preparing level "world"
+[03:19:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:19:35] [Server thread/INFO]: Time elapsed: 286 ms
+[03:19:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[03:19:35] [Server thread/INFO]: Time elapsed: 335 ms
+[03:19:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[03:19:36] [Server thread/INFO]: Time elapsed: 362 ms
+[03:19:36] [Server thread/INFO]: Running delayed init tasks
+[03:19:36] [Server thread/INFO]: Done (18.753s)! For help, type "help"
+[03:19:36] [Server thread/INFO]: Timings Reset
+[03:23:03] [User Authenticator #0/INFO]: UUID of player Akai120 is c7e92eb0-d98e-380c-8bf3-90f90cd9654a
+[03:23:06] [Server thread/INFO]: Akai120 joined the game
+[03:23:06] [Server thread/INFO]: Akai120[/127.117.58.94:55937] logged in with entity id 352 at ([world]9.5, 65.0, -5.5)
+[03:26:44] [User Authenticator #1/INFO]: UUID of player NoissDavidGG is efce269f-476c-3ade-bf3b-fc376ee8c8de
+[03:26:44] [Server thread/INFO]: NoissDavidGG joined the game
+[03:26:44] [Server thread/INFO]: NoissDavidGG[/127.220.123.178:43831] logged in with entity id 918 at ([world]-7.5, 70.0, -5.5)
+[03:27:14] [Server thread/INFO]: NoissDavidGG lost connection: Timed out
+[03:27:14] [Server thread/INFO]: NoissDavidGG left the game
+[03:27:41] [Server thread/INFO]: Akai120 lost connection: Disconnected
+[03:27:41] [Server thread/INFO]: Akai120 left the game
+[03:27:50] [User Authenticator #2/INFO]: UUID of player Akai120 is c7e92eb0-d98e-380c-8bf3-90f90cd9654a
+[03:27:50] [Server thread/INFO]: Akai120 joined the game
+[03:27:50] [Server thread/INFO]: Akai120[/127.117.58.94:33663] logged in with entity id 1076 at ([world]31.44200677386859, 70.0, -21.822215589103983)
+[03:29:00] [Server thread/INFO]: Akai120 lost connection: Disconnected
+[03:29:01] [Server thread/INFO]: Akai120 left the game
