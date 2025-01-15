@@ -92,3 +92,47 @@ java.lang.NoSuchMethodError: 'void com.viaversion.viabackwards.protocol.v1_13_1t
 [03:54:47] [Server thread/INFO]: Akai120[/127.117.58.94:56341] logged in with entity id 286 at ([world]31.438456002130174, 70.0, -22.032217594834144)
 [03:54:50] [Server thread/INFO]: Akai120 lost connection: Disconnected
 [03:54:50] [Server thread/INFO]: Akai120 left the game
+[03:59:15] [User Authenticator #2/INFO]: UUID of player Akai120 is c7e92eb0-d98e-380c-8bf3-90f90cd9654a
+[03:59:15] [Server thread/INFO]: Akai120 joined the game
+[03:59:15] [Server thread/INFO]: Akai120[/127.117.58.94:60273] logged in with entity id 294 at ([world]31.438456002130174, 70.0, -22.032217594834144)
+[03:59:23] [Server thread/INFO]: Akai120 lost connection: Disconnected
+[03:59:23] [Server thread/INFO]: Akai120 left the game
+[04:03:55] [User Authenticator #3/INFO]: UUID of player Akai120 is c7e92eb0-d98e-380c-8bf3-90f90cd9654a
+[04:03:55] [Server thread/INFO]: Akai120 joined the game
+[04:03:55] [Server thread/INFO]: Akai120[/127.117.58.94:38919] logged in with entity id 330 at ([world]36.30000001192093, 69.0, -25.663159411928323)
+[04:03:59] [Server thread/INFO]: Akai120 lost connection: Disconnected
+[04:03:59] [Server thread/INFO]: Akai120 left the game
+[04:04:20] [Server thread/INFO]: Stopping the server
+[04:04:20] [Server thread/INFO]: Stopping server
+[04:04:20] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.0-SNAPSHOT
+[04:04:20] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[04:04:20] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[04:04:20] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.3
+[04:04:20] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[04:04:20] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
+[04:04:20] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[04:04:20] [Server thread/INFO]: Saving players
+[04:04:20] [WebSocketConnectReadThread-66/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[04:04:20] [Server thread/INFO]: Saving worlds
+[04:04:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:04:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[04:04:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[04:04:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[04:04:21] [Server thread/INFO]: [ChunkHolderManager] Saved 476 block chunks, 155 entity chunks, 0 poi chunks in world 'world' in 0.52s
+[04:04:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:04:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[04:04:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[04:04:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[04:04:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[04:04:21] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 13 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[04:04:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:04:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[04:04:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[04:04:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[04:04:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[04:04:21] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
+[04:04:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:04:21] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:04:21] [Server thread/INFO]: Flushing Chunk IO
+[04:04:21] [Server thread/INFO]: Closing Thread Pool
+[04:04:21] [Server thread/INFO]: Closing Server
