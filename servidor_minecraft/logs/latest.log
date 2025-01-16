@@ -111,3 +111,11 @@ java.lang.NoSuchMethodError: 'void com.viaversion.viabackwards.protocol.v1_13_1t
 [01:35:01] [User Authenticator #1/INFO]: UUID of player Akai120 is c7e92eb0-d98e-380c-8bf3-90f90cd9654a
 [01:35:01] [Server thread/INFO]: Akai120 joined the game
 [01:35:01] [Server thread/INFO]: Akai120[/127.117.58.94:44439] logged in with entity id 1117 at ([world]-300.878918131296, 61.14308587588327, -66.46295483678861)
+[01:37:08] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Sincontexto2377
+[01:37:08] [localSession-7-2/INFO]: [Geyser-Spigot] Sincontexto2377 (logged in as: Sincontexto2377) has connected to the Java server
+[01:37:09] [Geyser Spigot connection thread-6-3/INFO]: UUID of player .Sincontexto2377 is 00000000-0000-0000-0009-01fba52c7005
+[01:37:09] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Sincontexto2377 joined (UUID: 00000000-0000-0000-0009-01fba52c7005)
+[01:37:09] [Server thread/INFO]: .Sincontexto2377 joined the game
+[01:37:09] [Server thread/INFO]: .Sincontexto2377[/127.0.0.1:0] logged in with entity id 1562 at ([world]144.41078, 8.0, 306.82886)
+[01:41:01] [Server thread/INFO]: .Sincontexto2377 was killed by Witch using magic
+[01:45:00] [Server thread/INFO]: .Sincontexto2377 hit the ground too hard
