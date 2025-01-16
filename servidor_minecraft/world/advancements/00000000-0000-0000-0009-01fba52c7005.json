@@ -1053,21 +1053,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/black_bed": {
-    "criteria": {
-      "has_black_wool": "2025-01-16 02:11:59 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/bow": {
     "criteria": {
       "has_string": "2025-01-16 01:42:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_carpet": {
-    "criteria": {
-      "has_black_wool": "2025-01-16 02:11:59 +0000"
     },
     "done": true
   },
@@ -1077,25 +1065,25 @@
     },
     "done": true
   },
-  "minecraft:adventure/sleep_in_bed": {
-    "criteria": {
-      "slept_in_bed": "2025-01-16 02:36:33 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/white_wool_from_string": {
     "criteria": {
       "has_string": "2025-01-16 01:42:53 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/black_banner": {
+  "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
-      "has_black_wool": "2025-01-16 02:11:59 +0000"
+      "has_string": "2025-01-16 01:42:53 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/tripwire_hook": {
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2025-01-16 01:42:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2025-01-16 01:42:53 +0000"
     },
@@ -1107,9 +1095,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/candle": {
+  "minecraft:recipes/redstone/target": {
     "criteria": {
-      "has_string": "2025-01-16 01:42:53 +0000"
+      "has_hay_block": "2025-01-16 01:46:25 +0000"
     },
     "done": true
   },
@@ -1125,15 +1113,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/target": {
+  "minecraft:recipes/decorations/black_bed": {
     "criteria": {
-      "has_hay_block": "2025-01-16 01:46:25 +0000"
+      "has_black_wool": "2025-01-16 02:11:59 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/loom": {
+  "minecraft:recipes/decorations/black_carpet": {
     "criteria": {
-      "has_string": "2025-01-16 01:42:53 +0000"
+      "has_black_wool": "2025-01-16 02:11:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2025-01-16 02:11:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2025-01-16 02:36:33 +0000"
     },
     "done": true
   },

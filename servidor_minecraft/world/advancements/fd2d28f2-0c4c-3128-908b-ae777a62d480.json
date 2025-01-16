@@ -435,6 +435,7 @@
       "cooked_cod": "2025-01-15 05:07:23 +0000",
       "mutton": "2025-01-15 04:59:22 +0000",
       "bread": "2025-01-16 02:24:28 +0000",
+      "golden_apple": "2025-01-16 02:54:02 +0000",
       "rotten_flesh": "2025-01-15 04:39:44 +0000"
     },
     "done": false
@@ -1363,9 +1364,21 @@
     },
     "done": true
   },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-01-16 02:49:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/blue_dye": {
     "criteria": {
       "has_lapis_lazuli": "2025-01-16 02:17:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2025-01-16 02:51:20 +0000"
     },
     "done": true
   },
@@ -1384,6 +1397,19 @@
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis_lazuli": "2025-01-16 02:17:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2025-01-16 02:55:04 +0000",
+      "minecraft:soul_sand_valley": "2025-01-16 02:51:45 +0000"
+    },
+    "done": false
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-01-16 02:51:43 +0000"
     },
     "done": true
   },
@@ -1411,9 +1437,21 @@
     },
     "done": true
   },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-01-16 02:51:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2025-01-16 02:18:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-01-16 02:50:14 +0000"
     },
     "done": true
   },
@@ -1438,6 +1476,12 @@
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_redstone": "2025-01-16 02:18:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-01-16 02:47:50 +0000"
     },
     "done": true
   },
@@ -1468,6 +1512,18 @@
   "minecraft:recipes/redstone/target": {
     "criteria": {
       "has_redstone": "2025-01-16 02:18:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-01-16 02:50:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-01-16 02:55:13 +0000"
     },
     "done": true
   },
