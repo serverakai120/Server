@@ -9,7 +9,10 @@
     "criteria": {
       "minecraft:sunflower_plains": "2025-01-15 04:37:24 +0000",
       "minecraft:beach": "2025-01-15 04:19:51 +0000",
+      "minecraft:river": "2025-01-16 01:56:28 +0000",
+      "minecraft:stony_shore": "2025-01-16 02:01:08 +0000",
       "minecraft:forest": "2025-01-15 04:17:47 +0000",
+      "minecraft:old_growth_birch_forest": "2025-01-16 02:01:29 +0000",
       "minecraft:plains": "2025-01-15 04:17:23 +0000"
     },
     "done": false

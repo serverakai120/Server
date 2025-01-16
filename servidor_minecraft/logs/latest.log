@@ -120,3 +120,23 @@ java.lang.NoSuchMethodError: 'void com.viaversion.viabackwards.protocol.v1_13_1t
 [01:41:01] [Server thread/INFO]: .Sincontexto2377 was killed by Witch using magic
 [01:45:00] [Server thread/INFO]: .Sincontexto2377 hit the ground too hard
 [01:53:39] [Server thread/INFO]: .Sincontexto2377 was slain by Zombie
+[01:57:27] [User Authenticator #2/INFO]: UUID of player FrxnJP is 040ca5e2-ca8e-3ceb-96c2-0799c5b5fd91
+[01:57:27] [Server thread/INFO]: FrxnJP joined the game
+[01:57:27] [Server thread/INFO]: FrxnJP[/127.215.164.187:34677] logged in with entity id 9686 at ([world]-451.6094495229088, 64.0, 836.6999999880791)
+[01:57:43] [Async Chat Thread - #0/INFO]: [Not Secure] <Akai120> x-353.256 z 317.879
+[01:59:59] [Server thread/INFO]: .Sincontexto2377 was slain by Spider
+[02:01:02] [User Authenticator #3/INFO]: UUID of player OmarRxa is 9297f100-9957-3753-a214-ab02d897710d
+[02:01:02] [Server thread/INFO]: OmarRxa joined the game
+[02:01:02] [Server thread/INFO]: OmarRxa[/127.53.171.176:43349] logged in with entity id 12176 at ([world]2.5, 65.0, 8.5)
+[02:02:41] [Server thread/INFO]: OmarRxa has made the advancement [Stone Age]
+[02:02:41] [User Authenticator #4/INFO]: UUID of player Akai120 is c7e92eb0-d98e-380c-8bf3-90f90cd9654a
+[02:02:41] [Server thread/INFO]: Akai120 lost connection: You logged in from another location
+[02:02:41] [Server thread/INFO]: Akai120 left the game
+[02:02:41] [Server thread/INFO]: Akai120 joined the game
+[02:02:41] [Server thread/INFO]: Akai120[/127.16.206.76:52461] logged in with entity id 13405 at ([world]-356.84396743325004, 75.0, 317.5557333301354)
+[02:02:52] [Server thread/INFO]: Akai120 lost connection: Disconnected
+[02:02:52] [Server thread/INFO]: Akai120 left the game
+[02:02:53] [User Authenticator #4/INFO]: UUID of player Akai120 is c7e92eb0-d98e-380c-8bf3-90f90cd9654a
+[02:02:53] [Server thread/INFO]: Akai120 joined the game
+[02:02:53] [Server thread/INFO]: Akai120[/127.117.58.94:55059] logged in with entity id 13579 at ([world]-356.84396743325004, 75.0, 317.5557333301354)
+[02:03:28] [Server thread/INFO]: OmarRxa has made the advancement [Getting an Upgrade]
