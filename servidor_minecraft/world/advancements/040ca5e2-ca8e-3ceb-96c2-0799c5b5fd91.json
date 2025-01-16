@@ -8,12 +8,14 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:sunflower_plains": "2025-01-15 05:15:09 +0000",
+      "minecraft:birch_forest": "2025-01-16 03:21:04 +0000",
       "minecraft:beach": "2025-01-15 04:23:13 +0000",
       "minecraft:river": "2025-01-15 05:27:48 +0000",
       "minecraft:stony_shore": "2025-01-16 02:03:24 +0000",
       "minecraft:dripstone_caves": "2025-01-16 02:26:36 +0000",
       "minecraft:forest": "2025-01-15 04:21:33 +0000",
       "minecraft:ocean": "2025-01-15 05:05:23 +0000",
+      "minecraft:old_growth_birch_forest": "2025-01-16 03:21:39 +0000",
       "minecraft:plains": "2025-01-15 04:18:59 +0000"
     },
     "done": false
@@ -1760,6 +1762,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2025-01-16 03:02:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
       "has_porkchop": "2025-01-16 02:05:01 +0000"
@@ -1775,6 +1783,12 @@
   "minecraft:recipes/building_blocks/dye_red_wool": {
     "criteria": {
       "has_needed_dye": "2025-01-16 02:06:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-01-16 03:17:25 +0000"
     },
     "done": true
   },
@@ -1802,6 +1816,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2025-01-16 03:13:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/orange_terracotta": {
     "criteria": {
       "has_terracotta": "2025-01-16 02:08:08 +0000"
@@ -1823,6 +1843,12 @@
   "minecraft:recipes/building_blocks/red_terracotta": {
     "criteria": {
       "has_terracotta": "2025-01-16 02:08:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2025-01-16 03:02:42 +0000"
     },
     "done": true
   },
@@ -1904,6 +1930,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2025-01-16 03:02:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-01-16 03:17:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop_from_smoking": {
     "criteria": {
       "has_porkchop": "2025-01-16 02:05:01 +0000"
@@ -1961,6 +1999,12 @@
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
       "has_gunpowder": "2025-01-16 02:42:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2025-01-16 03:13:42 +0000"
     },
     "done": true
   },

@@ -10,6 +10,7 @@
       "minecraft:sunflower_plains": "2025-01-15 04:36:44 +0000",
       "minecraft:beach": "2025-01-15 05:04:21 +0000",
       "minecraft:river": "2025-01-15 05:07:59 +0000",
+      "minecraft:stony_shore": "2025-01-16 03:18:29 +0000",
       "minecraft:forest": "2025-01-15 04:35:38 +0000",
       "minecraft:ocean": "2025-01-15 05:02:52 +0000",
       "minecraft:plains": "2025-01-15 04:35:57 +0000"
@@ -428,6 +429,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-01-16 03:05:07 +0000",
       "chicken": "2025-01-15 04:58:59 +0000",
       "cooked_mutton": "2025-01-16 02:19:13 +0000",
       "cooked_beef": "2025-01-16 02:13:44 +0000",
@@ -1358,9 +1360,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-01-16 02:58:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
     "criteria": {
       "has_raw_gold": "2025-01-16 02:22:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_boots": "2025-01-16 02:58:14 +0000"
     },
     "done": true
   },
@@ -1382,9 +1396,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2025-01-16 03:13:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/deflect_arrow": {
     "criteria": {
       "deflected_projectile": "2025-01-16 02:19:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-01-16 03:13:05 +0000"
     },
     "done": true
   },
@@ -1407,6 +1433,12 @@
     },
     "done": false
   },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_pickaxe": "2025-01-16 03:14:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/root": {
     "criteria": {
       "entered_nether": "2025-01-16 02:51:43 +0000"
@@ -1416,6 +1448,12 @@
   "minecraft:recipes/decorations/mossy_cobblestone_wall": {
     "criteria": {
       "has_mossy_cobblestone": "2025-01-16 02:18:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2025-01-16 03:19:47 +0000"
     },
     "done": true
   },
@@ -1443,6 +1481,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_pickaxe": "2025-01-16 03:14:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2025-01-16 02:18:58 +0000"
@@ -1467,6 +1511,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2025-01-16 03:13:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2025-01-16 02:32:10 +0000"
@@ -1479,9 +1529,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2025-01-16 03:13:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2025-01-16 03:13:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/yellow_dye_from_dandelion": {
     "criteria": {
       "has_dandelion": "2025-01-16 02:47:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2025-01-16 03:13:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2025-01-16 03:24:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-01-16 03:13:05 +0000"
     },
     "done": true
   },
@@ -1494,6 +1574,12 @@
   "minecraft:recipes/redstone/note_block": {
     "criteria": {
       "has_redstone": "2025-01-16 02:18:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-01-16 03:24:09 +0000"
     },
     "done": true
   },

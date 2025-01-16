@@ -218,3 +218,61 @@ java.lang.NoSuchMethodError: 'void com.viaversion.viabackwards.protocol.v1_13_1t
 [02:57:32] [Server thread/INFO]: Akai120 was slain by ElRichMC
 [02:57:46] [Async Chat Thread - #22/INFO]: [Not Secure] <ElRichMC> A
 [02:57:53] [Async Chat Thread - #23/INFO]: [Not Secure] <ElRichMC> Pense q eras el nosequeponer
+[02:57:56] [Async Chat Thread - #23/INFO]: [Not Secure] <ElRichMC> Perdon
+[02:58:14] [Server thread/INFO]: ElRichMC has made the advancement [Suit Up]
+[02:58:21] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Sincontexto2377
+[02:58:21] [localSession-7-4/INFO]: [Geyser-Spigot] Sincontexto2377 (logged in as: Sincontexto2377) has connected to the Java server
+[02:58:22] [Geyser Spigot connection thread-6-1/INFO]: UUID of player .Sincontexto2377 is 00000000-0000-0000-0009-01fba52c7005
+[02:58:22] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Sincontexto2377 joined (UUID: 00000000-0000-0000-0009-01fba52c7005)
+[02:58:22] [Server thread/INFO]: .Sincontexto2377 joined the game
+[02:58:22] [Server thread/INFO]: .Sincontexto2377[/127.0.0.1:0] logged in with entity id 48707 at ([world]-343.13217, 76.0, 313.65927)
+[02:58:42] [Async Chat Thread - #22/INFO]: [Not Secure] <ElRichMC> Mamahuevo
+[02:58:51] [Async Chat Thread - #23/INFO]: [Not Secure] <ElRichMC> Vuelve te guarde tus cosas
+[02:58:52] [Server thread/INFO]: Akai120 was slain by .Sincontexto2377
+[02:59:11] [Async Chat Thread - #23/INFO]: [Not Secure] <ElRichMC> Sincontexto te vas kill
+[02:59:15] [Async Chat Thread - #22/INFO]: [Not Secure] <ElRichMC> akai
+[03:00:31] [Server thread/INFO]: .Sincontexto2377 was shot by Skeleton
+[03:02:11] [Server thread/INFO]: Akai120 was slain by .Sincontexto2377
+[03:02:18] [Server thread/INFO]: .Sincontexto2377 was slain by Akai120
+[03:03:49] [Server thread/INFO]: .Sincontexto2377 was shot by Skeleton
+[03:05:26] [Server thread/INFO]: .Sincontexto2377 was slain by FrxnJP
+[03:05:45] [Server thread/INFO]: .Sincontexto2377 was slain by FrxnJP
+[03:05:52] [Server thread/INFO]: .Sincontexto2377 was slain by FrxnJP
+[03:05:53] [Server thread/INFO]: Villager EntityVillager['Nitwit'/2130, uuid='507e8688-a786-478b-9abd-b8640eda0e2d', l='ServerLevel[world]', x=-342.53, y=77.18, z=313.20, cpos=[-22, 19], tl=109356, v=true] died, message: 'Nitwit was slain by FrxnJP'
+[03:06:04] [Server thread/INFO]: .Sincontexto2377 was slain by FrxnJP
+[03:06:41] [Server thread/INFO]: .Sincontexto2377 was slain by FrxnJP
+[03:06:48] [Server thread/INFO]: .Sincontexto2377 was slain by FrxnJP
+[03:07:35] [Server thread/INFO]: .Sincontexto2377 was slain by FrxnJP
+[03:08:53] [User Authenticator #7/INFO]: UUID of player mahecha is bcb837c8-5f93-37ac-960c-2dd7d3514720
+[03:08:53] [Server thread/INFO]: mahecha joined the game
+[03:08:53] [Server thread/INFO]: mahecha[/127.142.43.225:47211] logged in with entity id 55917 at ([world]-110.99522054172284, 68.0, 81.5471448642526)
+[03:09:27] [Server thread/INFO]: .Sincontexto2377 was slain by FrxnJP
+[03:09:48] [Server thread/INFO]: mahecha has made the advancement [Monster Hunter]
+[03:12:07] [Server thread/INFO]: FrxnJP was slain by ElRichMC
+[03:12:36] [Server thread/INFO]: FrxnJP was slain by .Sincontexto2377
+[03:13:32] [Server thread/INFO]: mahecha has made the advancement [A Seedy Place]
+[03:14:26] [Async Chat Thread - #24/INFO]: [Not Secure] <ElRichMC> Quien quiere team?
+[03:19:13] [Server thread/INFO]: .Sincontexto2377 was slain by ElRichMC
+[03:19:36] [Server thread/INFO]: .Sincontexto2377 was slain by ElRichMC
+[03:19:54] [Server thread/INFO]: mahecha was shot by Skeleton
+[03:20:24] [Server thread/INFO]: Villager EntityVillager['Villager'/2216, uuid='a1b43c92-6897-4e70-91f7-a1b2ba88e44c', l='ServerLevel[world]', x=-343.68, y=75.00, z=310.62, cpos=[-22, 19], tl=125286, v=true] died, message: 'Villager was slain by ElRichMC'
+[03:20:32] [Server thread/INFO]: Villager EntityVillager['Villager'/2209, uuid='86d87e83-a9d8-46c5-b2ef-5c3b1edd1295', l='ServerLevel[world]', x=-335.42, y=75.00, z=317.67, cpos=[-21, 19], tl=133154, v=true] died, message: 'Villager was slain by ElRichMC'
+[03:21:50] [localSession-7-4/INFO]: [Geyser-Spigot] Sincontexto2377 has disconnected from the Java server because of Bedrock client disconnected
+[03:21:50] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .Sincontexto2377 disconnected
+[03:21:50] [Server thread/INFO]: .Sincontexto2377 lost connection: Disconnected
+[03:21:50] [Server thread/INFO]: .Sincontexto2377 left the game
+[03:22:26] [Server thread/INFO]: Villager EntityVillager['Cleric'/2215, uuid='d52b0e70-fdb5-4f2f-8125-dbfec80c3da1', l='ServerLevel[world]', x=-324.70, y=73.77, z=314.76, cpos=[-21, 19], tl=127608, v=true] died, message: 'Cleric was slain by ElRichMC'
+[03:22:29] [Server thread/INFO]: Villager EntityVillager['Mason'/2005, uuid='cc1b5df7-6e35-4271-867f-721e18cb53e2', l='ServerLevel[world]', x=-321.41, y=74.00, z=323.79, cpos=[-21, 20], tl=131535, v=true] died, message: 'Mason was slain by ElRichMC'
+[03:22:41] [Server thread/INFO]: Villager EntityVillager['Butcher'/2217, uuid='e43aa4e1-97ca-4564-8d23-2a6281f2d6e8', l='ServerLevel[world]', x=-319.83, y=73.42, z=315.30, cpos=[-20, 19], tl=125771, v=true] died, message: 'Butcher was slain by ElRichMC'
+[03:23:33] [Server thread/INFO]: mahecha was shot by Skeleton
+[03:25:30] [Server thread/INFO]: mahecha has made the advancement [Acquire Hardware]
+[03:26:11] [Server thread/INFO]: mahecha has made the advancement [Not Today, Thank You]
+[03:27:09] [Server thread/INFO]: ElRichMC was slain by Zombie
+[03:27:42] [Server thread/INFO]: Banned ElRichMC: Banned by an operator.
+[03:27:42] [Server thread/INFO]: ElRichMC lost connection: You are banned from this server
+[03:27:42] [Server thread/INFO]: ElRichMC left the game
+[03:27:46] [User Authenticator #8/INFO]: UUID of player ElRichMC is fd2d28f2-0c4c-3128-908b-ae777a62d480
+[03:27:46] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@56b03afe[id=fd2d28f2-0c4c-3128-908b-ae777a62d480,name=ElRichMC,properties={textures=[com.mojang.authlib.properties.Property@5fe28462]},legacy=false] (/127.16.206.76:41263): You are banned from this server.
+Reason: Banned by an operator.
+[03:27:46] [Server thread/INFO]: com.mojang.authlib.GameProfile@56b03afe[id=fd2d28f2-0c4c-3128-908b-ae777a62d480,name=ElRichMC,properties={textures=[com.mojang.authlib.properties.Property@5fe28462]},legacy=false] (/127.16.206.76:41263) lost connection: You are banned from this server.
+Reason: Banned by an operator.
