@@ -1,27 +1,27 @@
-[04:15:30] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[04:15:32] [ServerMain/INFO]: Loaded 7 recipes
-[04:15:33] [Server thread/INFO]: Starting minecraft server version 1.20
-[04:15:33] [Server thread/INFO]: Loading properties
-[04:15:33] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
-[04:15:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[04:15:33] [Server thread/INFO]: Using 4 threads for Netty based IO
-[04:15:34] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[01:26:13] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:26:17] [ServerMain/INFO]: Loaded 7 recipes
+[01:26:19] [Server thread/INFO]: Starting minecraft server version 1.20
+[01:26:19] [Server thread/INFO]: Loading properties
+[01:26:19] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[01:26:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:26:19] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:26:19] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[04:15:34] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[04:15:34] [Server thread/INFO]: Default game type: SURVIVAL
-[04:15:34] [Server thread/INFO]: Generating keypair
-[04:15:34] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:15:34] [Server thread/INFO]: Using epoll channel type
-[04:15:34] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[04:15:34] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[04:15:35] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
-[04:15:35] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[04:15:36] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[04:15:36] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[04:15:37] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[04:15:37] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[04:15:37] [Server thread/ERROR]: [ViaVersion] Error initializing plugin 'ViaVersion-5.2.1.jar' in folder 'plugins' (Is it up to date?)
+[01:26:19] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[01:26:20] [Server thread/INFO]: Default game type: SURVIVAL
+[01:26:20] [Server thread/INFO]: Generating keypair
+[01:26:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:26:20] [Server thread/INFO]: Using epoll channel type
+[01:26:21] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[01:26:21] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[01:26:23] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[01:26:23] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[01:26:24] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[01:26:25] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[01:26:25] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[01:26:25] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[01:26:26] [Server thread/ERROR]: [ViaVersion] Error initializing plugin 'ViaVersion-5.2.1.jar' in folder 'plugins' (Is it up to date?)
 java.lang.NoSuchMethodError: 'void com.viaversion.viabackwards.protocol.v1_13_1to1_13.rewriter.ItemPacketRewriter1_13_1.registerLevelParticles(com.viaversion.viaversion.api.protocol.packet.ClientboundPacketType, com.viaversion.viaversion.api.type.Type)'
 	at com.viaversion.viabackwards.protocol.v1_13_1to1_13.rewriter.ItemPacketRewriter1_13_1.registerPackets(ItemPacketRewriter1_13_1.java:72) ~[ViaBackwards-5.0.3.jar:?]
 	at com.viaversion.viaversion.api.rewriter.RewriterBase.register(RewriterBase.java:36) ~[ViaVersion-5.2.1.jar:?]
@@ -45,517 +45,69 @@ java.lang.NoSuchMethodError: 'void com.viaversion.viabackwards.protocol.v1_13_1t
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.20.jar:git-Paper-17]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.jar:git-Paper-17]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[04:15:37] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[04:15:37] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[04:15:37] [Server thread/INFO]: [floodgate] Took 627ms to boot Floodgate
-[04:15:37] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.3
-[04:15:37] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.1
-[04:15:37] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.0-SNAPSHOT
-[04:15:38] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[04:15:38] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[04:15:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[04:15:38] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
-[04:15:38] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[04:15:39] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.0.
-[04:15:39] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[04:15:39] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[04:15:39] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
-[04:15:39] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
-[04:15:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04:15:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[04:15:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04:15:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[04:15:39] [Server thread/INFO]: Preparing level "world"
-[04:15:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[04:15:40] [Server thread/INFO]: Time elapsed: 350 ms
-[04:15:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[04:15:40] [Server thread/INFO]: Time elapsed: 123 ms
-[04:15:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[04:15:41] [Server thread/INFO]: Time elapsed: 120 ms
-[04:15:41] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[04:15:41] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
-[04:15:41] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.13).
-[04:15:41] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
-[04:15:41] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[04:15:42] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.3
-[04:15:42] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.0-SNAPSHOT
-[04:15:42] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[04:15:42] [Server thread/INFO]: [Geyser-Spigot] 
-[04:15:42] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.0-b745 (git-master-58e2f17)
-[04:15:42] [Server thread/INFO]: [Geyser-Spigot] 
-[04:15:42] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[04:15:50] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 1125
-[04:15:50] [Server thread/INFO]: [Geyser-Spigot] Done (7.96s)! Run /geyser help for help!
-[04:15:51] [Server thread/INFO]: Running delayed init tasks
-[04:15:51] [Server thread/INFO]: Done (17.487s)! For help, type "help"
-[04:15:51] [Server thread/INFO]: Timings Reset
-[04:15:51] [Craft Scheduler Thread - 4 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[04:15:51] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:15:51] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
-[04:15:51] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[04:15:51] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
-[04:15:51] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[04:15:51] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
-[04:15:51] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:15:51] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     Version: 15.5.1
-[04:15:51] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     Commit: d5d8613
-[04:15:51] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
-[04:15:51] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:15:51] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[04:15:51] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[04:17:18] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Sincontexto2377
-[04:17:18] [localSession-7-2/INFO]: [Geyser-Spigot] Sincontexto2377 (logged in as: Sincontexto2377) has connected to the Java server
-[04:17:19] [Geyser Spigot connection thread-6-3/INFO]: UUID of player .Sincontexto2377 is 00000000-0000-0000-0009-01fba52c7005
-[04:17:19] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Sincontexto2377 joined (UUID: 00000000-0000-0000-0009-01fba52c7005)
-[04:17:22] [Server thread/INFO]: .Sincontexto2377 joined the game
-[04:17:22] [Server thread/INFO]: .Sincontexto2377[/127.0.0.1:0] logged in with entity id 265 at ([world]10.5, 64.0, 3.5)
-[04:17:40] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Joseda125595
-[04:17:40] [localSession-7-3/INFO]: [Geyser-Spigot] Joseda125595 (logged in as: Joseda125595) has connected to the Java server
-[04:17:41] [Geyser Spigot connection thread-6-4/INFO]: UUID of player .Joseda125595 is 00000000-0000-0000-0009-01f275a3ffe6
-[04:17:41] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Joseda125595 joined (UUID: 00000000-0000-0000-0009-01f275a3ffe6)
-[04:17:41] [Server thread/INFO]: .Joseda125595 joined the game
-[04:17:41] [Server thread/INFO]: .Joseda125595[/127.0.0.1:0] logged in with entity id 370 at ([world]-6.5, 64.0, -2.5)
-[04:18:08] [Async Chat Thread - #1/INFO]: [Not Secure] <.Sincontexto2377> quien eres
-[04:18:09] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .Joseda125595 disconnected
-[04:18:09] [localSession-7-3/INFO]: [Geyser-Spigot] Joseda125595 has disconnected from the Java server because of Bedrock client disconnected
-[04:18:09] [Server thread/INFO]: .Joseda125595 lost connection: Disconnected
-[04:18:09] [Server thread/INFO]: .Joseda125595 left the game
-[04:18:13] [User Authenticator #0/INFO]: UUID of player Akai120 is c7e92eb0-d98e-380c-8bf3-90f90cd9654a
-[04:18:13] [Server thread/INFO]: Akai120 joined the game
-[04:18:13] [Server thread/INFO]: Akai120[/127.117.58.94:60819] logged in with entity id 446 at ([world]36.30000001192093, 69.0, -25.663159411928323)
-[04:18:58] [User Authenticator #0/INFO]: UUID of player FrxnJP is 040ca5e2-ca8e-3ceb-96c2-0799c5b5fd91
-[04:18:58] [Server thread/INFO]: FrxnJP joined the game
-[04:18:58] [Server thread/INFO]: FrxnJP[/127.215.164.187:48679] logged in with entity id 552 at ([world]-4.5, 68.0, 5.5)
-[04:18:59] [Server thread/INFO]: FrxnJP lost connection: Disconnected
-[04:18:59] [Server thread/INFO]: FrxnJP left the game
-[04:19:13] [User Authenticator #0/INFO]: UUID of player FrxnJP is 040ca5e2-ca8e-3ceb-96c2-0799c5b5fd91
-[04:19:13] [Server thread/INFO]: FrxnJP joined the game
-[04:19:13] [Server thread/INFO]: FrxnJP[/127.215.164.187:41699] logged in with entity id 584 at ([world]-4.5, 68.0, 5.5)
-[04:19:16] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Joseda125595
-[04:19:16] [localSession-7-4/INFO]: [Geyser-Spigot] Joseda125595 (logged in as: Joseda125595) has connected to the Java server
-[04:19:16] [Geyser Spigot connection thread-6-1/INFO]: UUID of player .Joseda125595 is 00000000-0000-0000-0009-01f275a3ffe6
-[04:19:17] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Joseda125595 joined (UUID: 00000000-0000-0000-0009-01f275a3ffe6)
-[04:19:17] [Server thread/INFO]: .Joseda125595 joined the game
-[04:19:17] [Server thread/INFO]: .Joseda125595[/127.0.0.1:0] logged in with entity id 587 at ([world]1.95007, 64.0, 35.11134)
-[04:20:43] [Server thread/WARN]: .Joseda125595 moved wrongly!
-[04:21:59] [localSession-7-2/INFO]: [Geyser-Spigot] Sincontexto2377 has disconnected from the Java server because of Bedrock client disconnected
-[04:21:59] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Sincontexto2377 disconnected
-[04:21:59] [Server thread/INFO]: .Sincontexto2377 lost connection: Disconnected
-[04:21:59] [Server thread/INFO]: .Sincontexto2377 left the game
-[04:22:07] [Server thread/INFO]: Made Akai120 a server operator
-[04:22:17] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username Sincontexto2377
-[04:22:17] [localSession-7-1/INFO]: [Geyser-Spigot] Sincontexto2377 (logged in as: Sincontexto2377) has connected to the Java server
-[04:22:17] [Geyser Spigot connection thread-6-2/INFO]: UUID of player .Sincontexto2377 is 00000000-0000-0000-0009-01fba52c7005
-[04:22:17] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Sincontexto2377 joined (UUID: 00000000-0000-0000-0009-01fba52c7005)
-[04:22:17] [Server thread/INFO]: .Sincontexto2377 joined the game
-[04:22:17] [Server thread/INFO]: .Sincontexto2377[/127.0.0.1:0] logged in with entity id 1716 at ([world]5.484895, 64.0, 7.643792)
-[04:22:25] [Server thread/INFO]: FrxnJP has made the advancement [Stone Age]
-[04:22:42] [Server thread/INFO]: FrxnJP has made the advancement [Getting an Upgrade]
-[04:23:44] [epollEventLoopGroup-4-1/WARN]: [io.netty.channel.DefaultChannelPipeline] An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
-java.lang.NullPointerException: Cannot invoke "org.geysermc.geyser.session.auth.BedrockClientData.getLanguageCode()" because "this.clientData" is null
-	at org.geysermc.geyser.session.GeyserSession.locale(GeyserSession.java:1403) ~[Geyser-Spigot (1).jar:?]
-	at org.geysermc.geyser.event.type.SessionDisconnectEventImpl.<init>(SessionDisconnectEventImpl.java:45) ~[Geyser-Spigot (1).jar:?]
-	at org.geysermc.geyser.session.GeyserSession.disconnect(GeyserSession.java:1008) ~[Geyser-Spigot (1).jar:?]
-	at org.geysermc.geyser.session.GeyserSession.disconnect(GeyserSession.java:1001) ~[Geyser-Spigot (1).jar:?]
-	at org.geysermc.geyser.util.LoginEncryptionUtils.encryptConnectionWithCert(LoginEncryptionUtils.java:104) ~[Geyser-Spigot (1).jar:?]
-	at org.geysermc.geyser.util.LoginEncryptionUtils.encryptPlayerConnection(LoginEncryptionUtils.java:61) ~[Geyser-Spigot (1).jar:?]
-	at org.geysermc.geyser.network.UpstreamPacketHandler.handle(UpstreamPacketHandler.java:186) ~[Geyser-Spigot (1).jar:?]
-	at org.cloudburstmc.protocol.bedrock.packet.LoginPacket.handle(LoginPacket.java:21) ~[Geyser-Spigot (1).jar:?]
-	at org.cloudburstmc.protocol.bedrock.packet.BedrockPacketHandler.handlePacket(BedrockPacketHandler.java:9) ~[Geyser-Spigot (1).jar:?]
-	at org.cloudburstmc.protocol.bedrock.BedrockSession.onPacket(BedrockSession.java:119) ~[Geyser-Spigot (1).jar:?]
-	at org.cloudburstmc.protocol.bedrock.BedrockPeer.onBedrockPacket(BedrockPeer.java:68) ~[Geyser-Spigot (1).jar:?]
-	at org.cloudburstmc.protocol.bedrock.BedrockPeer.channelRead(BedrockPeer.java:257) ~[Geyser-Spigot (1).jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at org.cloudburstmc.netty.channel.raknet.RakChannelPipeline.lambda$onUnhandledInboundMessage$0(RakChannelPipeline.java:60) ~[Geyser-Spigot (1).jar:?]
-	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:403) ~[netty-transport-classes-epoll-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[04:24:17] [Server thread/INFO]: Akai120 issued server command: /skin random FrxnJP
-[04:24:39] [Async Chat Thread - #2/INFO]: [Not Secure] <.Sincontexto2377> y esa sk8n mi bro
-[04:25:04] [Async Chat Thread - #3/INFO]: [Not Secure] <FrxnJP> noc, no veo mi skin, como minion
-[04:25:25] [epollEventLoopGroup-4-1/ERROR]: [org.cloudburstmc.protocol.bedrock.BedrockSession] Exception thrown while handling disconnect
-java.lang.NullPointerException: Cannot invoke "org.geysermc.geyser.session.auth.BedrockClientData.getLanguageCode()" because "this.clientData" is null
-	at org.geysermc.geyser.session.GeyserSession.locale(GeyserSession.java:1403) ~[Geyser-Spigot (1).jar:?]
-	at org.geysermc.geyser.event.type.SessionDisconnectEventImpl.<init>(SessionDisconnectEventImpl.java:45) ~[Geyser-Spigot (1).jar:?]
-	at org.geysermc.geyser.session.GeyserSession.disconnect(GeyserSession.java:1008) ~[Geyser-Spigot (1).jar:?]
-	at org.geysermc.geyser.session.GeyserSession.disconnect(GeyserSession.java:1001) ~[Geyser-Spigot (1).jar:?]
-	at org.geysermc.geyser.network.UpstreamPacketHandler.onDisconnect(UpstreamPacketHandler.java:147) ~[Geyser-Spigot (1).jar:?]
-	at org.cloudburstmc.protocol.bedrock.BedrockSession.onClose(BedrockSession.java:104) ~[Geyser-Spigot (1).jar:?]
-	at org.cloudburstmc.protocol.bedrock.BedrockPeer.onClose(BedrockPeer.java:205) ~[Geyser-Spigot (1).jar:?]
-	at org.cloudburstmc.protocol.bedrock.BedrockPeer.channelInactive(BedrockPeer.java:250) ~[Geyser-Spigot (1).jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:301) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.access$300(AbstractChannelHandlerContext.java:61) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext$4.run(AbstractChannelHandlerContext.java:286) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:403) ~[netty-transport-classes-epoll-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[04:25:38] [Server thread/INFO]: .Joseda125595 has made the advancement [Acquire Hardware]
-[04:25:50] [Server thread/INFO]: Akai120 issued server command: /skin 0hRxksi FrxnJP
-[04:26:22] [Server thread/INFO]: .Joseda125595 has made the advancement [Isn't It Iron Pick]
-[04:26:31] [Server thread/INFO]: Akai120 issued server command: /skin random FrxnJP
-[04:26:45] [Server thread/INFO]: Akai120 issued server command: /skin random .Joseda125595
-[04:26:59] [Server thread/INFO]: Akai120 issued server command: /skin random FrxnJP
-[04:27:14] [Server thread/INFO]: .Sincontexto2377 has made the advancement [Suit Up]
-[04:27:17] [Server thread/INFO]: .Sincontexto2377 has made the advancement [Acquire Hardware]
-[04:27:47] [Server thread/INFO]: .Joseda125595 hit the ground too hard
-[04:27:49] [Server thread/INFO]: Akai120 issued server command: /gamemode spectator
-[04:27:49] [Server thread/INFO]: [Akai120: Set own game mode to Spectator Mode]
-[04:27:57] [Server thread/INFO]: Akai120 issued server command: /spectate FrxnJP
-[04:27:58] [Server thread/INFO]: .Sincontexto2377 has made the advancement [A Seedy Place]
-[04:28:03] [Server thread/INFO]: FrxnJP lost connection: Disconnected
-[04:28:03] [Server thread/INFO]: FrxnJP left the game
-[04:28:09] [Server thread/INFO]: Akai120 issued server command: /spectate .Sincontexto2377
-[04:28:15] [Server thread/INFO]: Akai120 issued server command: /spectate .Sincontexto2377
-[04:28:23] [Server thread/WARN]: Akai120 moved too quickly! 14.80104,1.0,2.390319
-[04:28:24] [Server thread/WARN]: Akai120 moved too quickly! 7.5101999999999975,5.760770841563527,3.2979640000000003
-[04:28:26] [Server thread/WARN]: Akai120 moved too quickly! 11.290530000000018,5.425925721273089,6.6112629999999974
-[04:28:29] [Server thread/WARN]: Akai120 moved too quickly! 10.952289999999977,1.4951899999999938,5.6747400000000034
-[04:28:31] [Server thread/WARN]: Akai120 moved too quickly! 4.8804700000000025,1.998660000000001,11.741966000000001
-[04:28:33] [Server thread/WARN]: Akai120 moved too quickly! 10.702790000000022,1.5813399999999973,7.099761999999998
-[04:28:36] [Server thread/WARN]: Akai120 moved too quickly! 3.7486199999999883,-4.333200000000005,10.357143999999998
-[04:28:38] [Server thread/INFO]: Akai120 issued server command: /spectate
-[04:28:48] [User Authenticator #1/INFO]: UUID of player FrxnJP is 040ca5e2-ca8e-3ceb-96c2-0799c5b5fd91
-[04:28:48] [Server thread/INFO]: FrxnJP joined the game
-[04:28:48] [Server thread/INFO]: FrxnJP[/127.215.164.187:40877] logged in with entity id 3866 at ([world]2.475157592398713, 59.0, 1.4269942994817453)
-[04:28:50] [Server thread/INFO]: Akai120 issued server command: /spectate .Sincontexto2377
-[04:29:23] [Async Chat Thread - #4/INFO]: [Not Secure] <FrxnJP> akai, la ip es la de views no c q, para q le digas al wey
-[04:29:41] [Server thread/WARN]: .Joseda125595 moved wrongly!
-[04:29:41] [Server thread/WARN]: .Joseda125595 moved wrongly!
-[04:29:57] [Server thread/INFO]: .Sincontexto2377 has made the advancement [Monster Hunter]
-[04:31:18] [Server thread/INFO]: .Joseda125595 has made the advancement [Monster Hunter]
-[04:31:23] [Server thread/INFO]: Akai120 issued server command: /spectate .Joseda125595
-[04:31:45] [Server thread/INFO]: Akai120 issued server command: /spectate .Sincontexto2377
-[04:32:01] [Server thread/INFO]: Akai120 issued server command: /spectate .Joseda125595
-[04:32:04] [Server thread/INFO]: Akai120 issued server command: /spectate .Sincontexto2377
-[04:32:12] [Server thread/INFO]: Akai120 issued server command: /spectate .Joseda125595
-[04:32:24] [Server thread/INFO]: Akai120 issued server command: /spectate .Sincontexto2377
-[04:32:40] [Server thread/INFO]: Akai120 issued server command: /spectate FrxnJP
-[04:33:01] [Server thread/INFO]: .Joseda125595 fell from a high place
-[04:33:44] [Server thread/INFO]: Akai120 issued server command: /spectate FrxnJP
-[04:33:48] [Server thread/INFO]: Akai120 issued server command: /spectate .Joseda125595
-[04:34:01] [Server thread/INFO]: Akai120 issued server command: /gamemode spectator
-[04:34:02] [Server thread/INFO]: FrxnJP has made the advancement [Acquire Hardware]
-[04:34:08] [Server thread/INFO]: Akai120 lost connection: Disconnected
-[04:34:08] [Server thread/INFO]: Akai120 left the game
-[04:34:11] [User Authenticator #2/INFO]: UUID of player NoissDavidGG is efce269f-476c-3ade-bf3b-fc376ee8c8de
-[04:34:11] [Server thread/INFO]: NoissDavidGG joined the game
-[04:34:11] [Server thread/INFO]: NoissDavidGG[/127.220.123.178:36593] logged in with entity id 5388 at ([world]-7.5, 70.0, -5.5)
-[04:34:11] [Server thread/INFO]: FrxnJP has made the advancement [Isn't It Iron Pick]
-[04:34:13] [User Authenticator #2/INFO]: UUID of player Akai120 is c7e92eb0-d98e-380c-8bf3-90f90cd9654a
-[04:34:13] [Server thread/INFO]: Akai120 joined the game
-[04:34:13] [Server thread/INFO]: Akai120[/127.117.58.94:44961] logged in with entity id 5421 at ([world]45.944077, 70.12128, 131.06877)
-[04:34:24] [Server thread/INFO]: .Joseda125595 was blown up by Creeper
-[04:34:29] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .Joseda125595 disconnected
-[04:34:29] [localSession-7-4/INFO]: [Geyser-Spigot] Joseda125595 has disconnected from the Java server because of Bedrock client disconnected
-[04:34:29] [Server thread/INFO]: .Joseda125595 lost connection: Disconnected
-[04:34:29] [Server thread/INFO]: .Joseda125595 left the game
-[04:34:38] [Server thread/INFO]: .Sincontexto2377 has made the advancement [Stone Age]
-[04:34:40] [Server thread/INFO]: NoissDavidGG lost connection: Timed out
-[04:34:40] [Server thread/INFO]: NoissDavidGG left the game
-[04:34:55] [Server thread/INFO]: Akai120 issued server command: /gamemode survival
-[04:34:55] [Server thread/INFO]: [Akai120: Set own game mode to Survival Mode]
-[04:35:01] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Nosequeponern
-[04:35:01] [localSession-7-2/INFO]: [Geyser-Spigot] Nosequeponern (logged in as: Nosequeponern) has connected to the Java server
-[04:35:01] [Geyser Spigot connection thread-6-3/INFO]: UUID of player .Nosequeponern is 00000000-0000-0000-0009-01fa775eb430
-[04:35:01] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Nosequeponern joined (UUID: 00000000-0000-0000-0009-01fa775eb430)
-[04:35:01] [Server thread/INFO]: .Nosequeponern joined the game
-[04:35:01] [Server thread/INFO]: .Nosequeponern[/127.0.0.1:0] logged in with entity id 5631 at ([world]-6.5, 63.0, 0.5)
-[04:35:03] [Server thread/INFO]: Akai120 issued server command: /gamemode spectator
-[04:35:03] [Server thread/INFO]: [Akai120: Set own game mode to Spectator Mode]
-[04:35:26] [Server thread/INFO]: .Sincontexto2377 has made the advancement [Isn't It Iron Pick]
-[04:35:32] [Server thread/INFO]: .Sincontexto2377 has made the advancement [Getting an Upgrade]
-[04:35:37] [User Authenticator #3/INFO]: UUID of player ElRichMC is fd2d28f2-0c4c-3128-908b-ae777a62d480
-[04:35:37] [Server thread/INFO]: ElRichMC joined the game
-[04:35:37] [Server thread/INFO]: ElRichMC[/127.16.206.76:50515] logged in with entity id 5757 at ([world]6.5, 64.0, -0.5)
-[04:35:46] [Server thread/INFO]: Akai120 issued server command: /tp ElRichMC
-[04:35:46] [Server thread/INFO]: [Akai120: Teleported Akai120 to ElRichMC]
-[04:36:03] [Async Chat Thread - #6/INFO]: [Not Secure] <FrxnJP> oh no un tryhard
-[04:36:14] [Server thread/INFO]: .Nosequeponern was slain by ElRichMC
-[04:36:27] [Async Chat Thread - #6/INFO]: [Not Secure] <FrxnJP> rich del temu
-[04:36:38] [Server thread/INFO]: Akai120 issued server command: /tp ElRichMC
-[04:36:38] [Server thread/INFO]: [Akai120: Teleported Akai120 to ElRichMC]
-[04:36:51] [Server thread/INFO]: Akai120 issued server command: /tp FrxnJP
-[04:36:51] [Server thread/INFO]: [Akai120: Teleported Akai120 to FrxnJP]
-[04:36:58] [Server thread/INFO]: ElRichMC has made the advancement [Monster Hunter]
-[04:37:03] [Server thread/INFO]: Akai120 issued server command: /tp .Sincontexto2377
-[04:37:03] [Server thread/INFO]: [Akai120: Teleported Akai120 to .Sincontexto2377]
-[04:37:14] [Server thread/INFO]: Akai120 issued server command: /tp ElRichMC
-[04:37:14] [Server thread/INFO]: [Akai120: Teleported Akai120 to ElRichMC]
-[04:37:40] [Server thread/INFO]: ElRichMC has made the advancement [Stone Age]
-[04:37:49] [Server thread/INFO]: ElRichMC has made the advancement [Getting an Upgrade]
-[04:38:33] [Server thread/INFO]: FrxnJP has made the advancement [Monster Hunter]
-[04:38:38] [Server thread/INFO]: Akai120 issued server command: /tp ElRichMC
-[04:38:38] [Server thread/INFO]: [Akai120: Teleported Akai120 to ElRichMC]
-[04:38:43] [Async Chat Thread - #8/INFO]: [Not Secure] <.Nosequeponern> vas y chingas a toda tu puta madre por matarme
-[04:38:45] [Server thread/INFO]: Akai120 issued server command: /tp .Sincontexto2377
-[04:38:45] [Server thread/INFO]: [Akai120: Teleported Akai120 to .Sincontexto2377]
-[04:38:55] [Async Chat Thread - #9/INFO]: [Not Secure] <FrxnJP> echeee
-[04:39:05] [Async Chat Thread - #9/INFO]: [Not Secure] <ElRichMC> ?
-[04:39:08] [Server thread/INFO]: Akai120 issued server command: /tp FrxnJP
-[04:39:08] [Server thread/INFO]: [Akai120: Teleported Akai120 to FrxnJP]
-[04:39:18] [Async Chat Thread - #9/INFO]: [Not Secure] <FrxnJP> traiganle una falda
-[04:39:32] [Server thread/INFO]: Akai120 issued server command: /tp ElRichMC
-[04:39:32] [Server thread/INFO]: [Akai120: Teleported Akai120 to ElRichMC]
-[04:39:34] [Async Chat Thread - #8/INFO]: [Not Secure] <.Sincontexto2377> una oveja negra
-[04:39:39] [Server thread/INFO]: Akai120 issued server command: /tp .Sincontexto2377
-[04:39:39] [Server thread/INFO]: [Akai120: Teleported Akai120 to .Sincontexto2377]
-[04:40:08] [Server thread/INFO]: Akai120 issued server command: /tp ElRichMC
-[04:40:08] [Server thread/INFO]: [Akai120: Teleported Akai120 to ElRichMC]
-[04:40:18] [Server thread/INFO]: ElRichMC has made the advancement [Acquire Hardware]
-[04:40:26] [Server thread/INFO]: ElRichMC has made the advancement [Isn't It Iron Pick]
-[04:40:30] [Server thread/INFO]: Akai120 issued server command: /tp .Sincontexto2377
-[04:40:30] [Server thread/INFO]: [Akai120: Teleported Akai120 to .Sincontexto2377]
-[04:40:48] [Server thread/INFO]: Akai120 issued server command: /tp .Nosequeponern
-[04:40:48] [Server thread/INFO]: [Akai120: Teleported Akai120 to .Nosequeponern]
-[04:41:02] [Server thread/INFO]: Akai120 issued server command: /tp .Sincontexto2377
-[04:41:02] [Server thread/INFO]: [Akai120: Teleported Akai120 to .Sincontexto2377]
-[04:41:14] [Server thread/INFO]: .Sincontexto2377 has made the advancement [Diamonds!]
-[04:41:42] [Async Chat Thread - #10/INFO]: [Not Secure] <.Nosequeponern> no me cargan los chunks XDDDD
-[04:41:42] [Server thread/INFO]: FrxnJP has made the advancement [Suit Up]
-[04:41:44] [Server thread/INFO]: ElRichMC has made the advancement [Diamonds!]
-[04:41:55] [Server thread/INFO]: Akai120 issued server command: /tp ElRichMC
-[04:41:55] [Server thread/INFO]: [Akai120: Teleported Akai120 to ElRichMC]
-[04:42:10] [Server thread/INFO]: Akai120 issued server command: /tp FrxnJP
-[04:42:10] [Server thread/INFO]: [Akai120: Teleported Akai120 to FrxnJP]
-[04:43:22] [Server thread/INFO]: ElRichMC has made the advancement [Cover Me with Diamonds]
-[04:43:32] [Async Chat Thread - #12/INFO]: [Not Secure] <FrxnJP> quee-
-[04:44:02] [Async Chat Thread - #13/INFO]: [Not Secure] <FrxnJP> pasame el xray crack
-[04:44:20] [Server thread/WARN]: .Nosequeponern moved wrongly!
-[04:44:21] [Server thread/WARN]: .Nosequeponern moved wrongly!
-[04:44:22] [Server thread/WARN]: .Nosequeponern moved wrongly!
-[04:44:23] [Server thread/INFO]: FrxnJP has made the advancement [Not Today, Thank You]
-[04:44:59] [Async Chat Thread - #12/INFO]: [Not Secure] <.Nosequeponern> pasen coordenada
-[04:45:57] [Server thread/INFO]: .Sincontexto2377 has made the advancement [Not Today, Thank You]
-[04:46:43] [Server thread/INFO]: Akai120 issued server command: /tp ElRichMC
-[04:46:43] [Server thread/INFO]: [Akai120: Teleported Akai120 to ElRichMC]
-[04:47:03] [Server thread/INFO]: Akai120 issued server command: /tp .Sincontexto2377
-[04:47:03] [Server thread/INFO]: [Akai120: Teleported Akai120 to .Sincontexto2377]
-[04:47:18] [Server thread/INFO]: Akai120 issued server command: /tp spawn
-[04:47:29] [Server thread/INFO]: ElRichMC lost connection: Disconnected
-[04:47:29] [Server thread/INFO]: ElRichMC left the game
-[04:47:32] [Server thread/INFO]: Akai120 issued server command: /tp spawn
-[04:47:37] [User Authenticator #4/INFO]: UUID of player ElRichMC is fd2d28f2-0c4c-3128-908b-ae777a62d480
-[04:47:37] [Server thread/INFO]: ElRichMC joined the game
-[04:47:37] [Server thread/INFO]: ElRichMC[/127.16.206.76:59413] logged in with entity id 9702 at ([world]71.20881741819076, -50.0, 113.4697306939602)
-[04:47:51] [Server thread/INFO]: ElRichMC issued server command: /tp spawn
-[04:47:54] [Server thread/INFO]: Akai120 issued server command: /tp .Nosequeponern
-[04:47:54] [Server thread/INFO]: [Akai120: Teleported Akai120 to .Nosequeponern]
-[04:48:04] [Server thread/INFO]: Akai120 issued server command: /gamemode sur
-[04:48:10] [Server thread/INFO]: Akai120 issued server command: /gamemode survival
-[04:48:10] [Server thread/INFO]: [Akai120: Set own game mode to Survival Mode]
-[04:48:38] [Async Chat Thread - #15/INFO]: [Not Secure] <ElRichMC> -/rtp
-[04:48:43] [Server thread/INFO]: ElRichMC issued server command: /rtp
-[04:48:53] [Server thread/INFO]: Akai120 has made the advancement [Stone Age]
-[04:49:10] [Server thread/WARN]: .Nosequeponern moved wrongly!
-[04:49:11] [Server thread/WARN]: .Nosequeponern moved wrongly!
-[04:49:16] [Server thread/INFO]: .Nosequeponern has made the advancement [Stone Age]
-[04:49:22] [Server thread/INFO]: FrxnJP has made the advancement [Diamonds!]
-[04:49:33] [Server thread/INFO]: Akai120 has made the advancement [Getting an Upgrade]
-[04:49:45] [Async Chat Thread - #16/INFO]: [Not Secure] <ElRichMC> Haceme tp a vos
-[04:50:17] [Server thread/INFO]: .Nosequeponern was slain by Cave Spider
-[04:50:38] [Async Chat Thread - #17/INFO]: [Not Secure] <ElRichMC> #
-[04:51:18] [Server thread/INFO]: Akai120 issued server command: /difficulty hard
-[04:51:18] [Server thread/INFO]: [Akai120: The difficulty has been set to Hard]
-[04:51:41] [Server thread/INFO]: Villager EntityVillager['Mason'/263, uuid='f9a1bc7a-6e69-4b49-8e6f-dfa795248250', l='ServerLevel[world]', x=144.88, y=66.00, z=-7.88, cpos=[9, -1], tl=48548, v=true] died, message: 'Mason was slain by Zombie'
-[04:52:12] [Server thread/INFO]: .Nosequeponern was slain by Zombie
-[04:52:41] [Server thread/INFO]: Akai120 has made the advancement [Monster Hunter]
-[04:53:12] [Server thread/INFO]: FrxnJP was blown up by Creeper
-[04:53:25] [Server thread/INFO]: Villager EntityVillager['Villager'/253, uuid='b319298a-107e-4975-850b-aecfed28972e', l='ServerLevel[world]', x=167.22, y=105.00, z=78.22, cpos=[10, 4], tl=49075, v=true] died, message: 'Villager was slain by Zombie Villager'
-[04:53:32] [Async Chat Thread - #18/INFO]: [Not Secure] <.Sincontexto2377> jajaja
-[04:53:51] [Server thread/INFO]: .Nosequeponern was slain by Akai120
-[04:54:43] [Server thread/WARN]: .Nosequeponern moved wrongly!
-[04:54:55] [Server thread/INFO]: .Nosequeponern was slain by Akai120
-[04:55:41] [localSession-7-1/INFO]: [Geyser-Spigot] Sincontexto2377 has disconnected from the Java server because of Bedrock client disconnected
-[04:55:41] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .Sincontexto2377 disconnected
-[04:55:41] [Server thread/INFO]: .Sincontexto2377 lost connection: Disconnected
-[04:55:41] [Server thread/INFO]: .Sincontexto2377 left the game
-[04:56:11] [Server thread/INFO]: Akai120 has made the advancement [Sweet Dreams]
-[04:58:21] [Server thread/INFO]: .Nosequeponern has made the advancement [Getting an Upgrade]
-[04:59:40] [Async Chat Thread - #20/INFO]: [Not Secure] <ElRichMC> Pasen coords de Akai120
-[05:00:48] [Server thread/INFO]: FrxnJP has made the advancement [Cover Me with Diamonds]
-[05:01:06] [Server thread/INFO]: .Nosequeponern was slain by Akai120
-[05:01:39] [Server thread/WARN]: .Nosequeponern moved wrongly!
-[05:01:50] [Server thread/WARN]: .Nosequeponern moved wrongly!
-[05:01:57] [Server thread/INFO]: ElRichMC issued server command: /msg .Nosequeponern Pasme sus coords y te ayudo
-[05:02:50] [Server thread/WARN]: ElRichMC moved too quickly! 0.2769430509916475,4.799999999999997,9.070033249030132
-[05:02:51] [Server thread/WARN]: ElRichMC moved too quickly! 0.6419826395679635,0.0,20.284446176767858
-[05:03:21] [Server thread/WARN]: ElRichMC moved too quickly! -0.2578168955289115,0.0,10.029452695657938
-[05:03:29] [Server thread/WARN]: ElRichMC moved too quickly! -0.08618720374597899,5.8799999999999955,8.480511638140683
-[05:03:36] [Server thread/WARN]: ElRichMC moved too quickly! 0.0,-20.2393,0.0
-[05:03:53] [Server thread/INFO]: .Nosequeponern has made the advancement [Monster Hunter]
-[05:05:14] [Server thread/WARN]: .Nosequeponern moved wrongly!
-[05:05:18] [Server thread/WARN]: .Nosequeponern moved wrongly!
-[05:05:22] [Server thread/WARN]: .Nosequeponern moved wrongly!
-[05:05:23] [Server thread/WARN]: .Nosequeponern moved wrongly!
-[05:07:38] [Server thread/INFO]: .Nosequeponern was shot by Skeleton
-[05:07:54] [Server thread/INFO]: ElRichMC fell from a high place
-[05:07:59] [Server thread/WARN]: ElRichMC moved too quickly! -14.482417343228065,13.4448,-3.90588556806064
-[05:08:00] [Server thread/WARN]: ElRichMC moved too quickly! -4.111357716376773,14.09818,-2.288219790900321
-[05:08:00] [Server thread/WARN]: ElRichMC moved too quickly! -11.951823354039618,14.927440588799982,-6.651914190565627
-[05:08:01] [Server thread/WARN]: ElRichMC moved too quickly! -2.9898259739120476,12.439299999999974,-1.6640193913563195
-[05:08:17] [Async Chat Thread - #23/INFO]: [Not Secure] <ElRichMC> Me empujo una mmda
-[05:08:26] [Server thread/INFO]: Akai120 has made the advancement [Acquire Hardware]
-[05:08:39] [Async Chat Thread - #24/INFO]: [Not Secure] <ElRichMC> tenia full diammte y ya tnt
-[05:08:47] [Async Chat Thread - #23/INFO]: [Not Secure] <ElRichMC> un pvp a full iron?
-[05:08:52] [Async Chat Thread - #24/INFO]: [Not Secure] <ElRichMC> si gano me regresas
-[05:09:04] [Async Chat Thread - #23/INFO]: [Not Secure] <ElRichMC> los items ps
-[05:09:19] [Async Chat Thread - #23/INFO]: [Not Secure] <ElRichMC> xd
-[05:09:22] [Server thread/INFO]: Akai120 has made the advancement [Suit Up]
-[05:09:31] [Async Chat Thread - #23/INFO]: [Not Secure] <ElRichMC> Heceme tp a vos
-[05:09:34] [Async Chat Thread - #24/INFO]: [Not Secure] <.Nosequeponern> akai teletransportame a ti tengo miedo
-[05:09:46] [Async Chat Thread - #23/INFO]: [Not Secure] <ElRichMC> haceme tp bro
-[05:10:11] [Server thread/INFO]: Akai120 has made the advancement [Not Today, Thank You]
-[05:10:33] [Server thread/WARN]: ElRichMC moved too quickly! -2.049145182571408,7.472790220799993,6.724941516668878
-[05:10:36] [Server thread/INFO]: ElRichMC fell from a high place
-[05:10:40] [Async Chat Thread - #24/INFO]: [Not Secure] <.Nosequeponern> akai salvame no puedo salir de mi casa si salgo me llenan de flechas
-[05:10:42] [Server thread/WARN]: ElRichMC moved too quickly! -0.008963955579206484,14.910367647999976,0.05338240677463091
-[05:10:57] [Async Chat Thread - #23/INFO]: [Not Secure] <.Nosequeponern> era beit
-[05:11:01] [Server thread/INFO]: ElRichMC fell from a high place
-[05:12:07] [Server thread/INFO]: .Nosequeponern was slain by ElRichMC
-[05:12:24] [Async Chat Thread - #25/INFO]: [Not Secure] <.Nosequeponern> rich chinga tu madre
-[05:12:28] [Server thread/WARN]: .Nosequeponern moved wrongly!
-[05:12:29] [Server thread/WARN]: .Nosequeponern moved wrongly!
-[05:12:30] [Server thread/WARN]: .Nosequeponern moved wrongly!
-[05:12:51] [Server thread/INFO]: ElRichMC was shot by Skeleton
-[05:13:29] [Server thread/INFO]: .Nosequeponern was slain by ElRichMC
-[05:13:48] [Server thread/INFO]: ElRichMC was slain by .Nosequeponern
-[05:14:00] [Server thread/INFO]: .Nosequeponern was slain by ElRichMC
-[05:14:53] [Server thread/WARN]: .Nosequeponern moved wrongly!
-[05:14:54] [Server thread/WARN]: .Nosequeponern moved wrongly!
-[05:14:57] [Server thread/WARN]: Boat (vehicle of FrxnJP) moved wrongly! 0.5635113816710227
-[05:15:32] [Server thread/INFO]: ElRichMC was shot by Skeleton
-[05:15:48] [Server thread/INFO]: ElRichMC was slain by Zombie
-[05:15:51] [Async Chat Thread - #28/INFO]: [Not Secure] <.Nosequeponern> rich te lo mereces
-[05:17:38] [localSession-7-2/INFO]: [Geyser-Spigot] Nosequeponern has disconnected from the Java server because of Bedrock client disconnected
-[05:17:38] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Nosequeponern disconnected
-[05:17:38] [Server thread/INFO]: .Nosequeponern lost connection: Disconnected
-[05:17:38] [Server thread/INFO]: .Nosequeponern left the game
-[05:18:05] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Nosequeponern
-[05:18:05] [localSession-7-3/INFO]: [Geyser-Spigot] Nosequeponern (logged in as: Nosequeponern) has connected to the Java server
-[05:18:05] [Geyser Spigot connection thread-6-4/INFO]: UUID of player .Nosequeponern is 00000000-0000-0000-0009-01fa775eb430
-[05:18:05] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Nosequeponern joined (UUID: 00000000-0000-0000-0009-01fa775eb430)
-[05:18:05] [Server thread/INFO]: .Nosequeponern joined the game
-[05:18:05] [Server thread/INFO]: .Nosequeponern[/127.0.0.1:0] logged in with entity id 26648 at ([world]-40.69999, 64.0, 85.69999)
-[05:18:46] [Async Chat Thread - #29/INFO]: [Not Secure] <FrxnJP> ya es d dia
-[05:19:03] [Server thread/INFO]: Akai120 was shot by Skeleton
-[05:19:30] [Async Chat Thread - #29/INFO]: [Not Secure] <ElRichMC> Haganme tp
-[05:19:58] [Async Chat Thread - #29/INFO]: [Not Secure] <ElRichMC> Akai hazme tp yo t ayudo we
-[05:21:01] [Server thread/WARN]: .Nosequeponern moved wrongly!
-[05:21:11] [Async Chat Thread - #31/INFO]: [Not Secure] <ElRichMC> Hazme tp @kai
-[05:22:21] [localSession-7-3/INFO]: [Geyser-Spigot] Nosequeponern has disconnected from the Java server because of Bedrock client disconnected
-[05:22:21] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .Nosequeponern disconnected
-[05:22:22] [Server thread/INFO]: .Nosequeponern lost connection: Disconnected
-[05:22:22] [Server thread/INFO]: .Nosequeponern left the game
-[05:22:42] [Server thread/INFO]: FrxnJP has made the advancement [Hot Stuff]
-[05:22:56] [Async Chat Thread - #33/INFO]: [Not Secure] <ElRichMC> Akai120
-[05:23:16] [Async Chat Thread - #33/INFO]: [Not Secure] <ElRichMC> ok
-[05:23:47] [Server thread/INFO]: ElRichMC fell from a high place
-[05:25:36] [User Authenticator #5/INFO]: UUID of player mahecha is bcb837c8-5f93-37ac-960c-2dd7d3514720
-[05:25:36] [Server thread/INFO]: mahecha joined the game
-[05:25:36] [Server thread/INFO]: mahecha[/127.142.43.225:48695] logged in with entity id 31671 at ([world]-7.5, 63.0, 2.5)
-[05:25:59] [Server thread/INFO]: Akai120 has made the advancement [Isn't It Iron Pick]
-[05:25:59] [Server thread/INFO]: FrxnJP has made the advancement [Ice Bucket Challenge]
-[05:26:34] [Server thread/INFO]: Akai120 was shot by Skeleton
-[05:28:35] [Server thread/INFO]: FrxnJP has made the advancement [We Need to Go Deeper]
-[05:30:22] [Async Chat Thread - #35/INFO]: [Not Secure] <FrxnJP> en esta version esta el warden vdd? o no?
-[05:31:21] [Server thread/INFO]: mahecha has made the advancement [Stone Age]
-[05:36:35] [Async Chat Thread - #37/INFO]: [Not Secure] <ElRichMC> me hacen tp al 0 100 0?
-[05:36:57] [Server thread/INFO]: mahecha has made the advancement [Getting an Upgrade]
-[05:39:03] [Server thread/INFO]: ElRichMC lost connection: Disconnected
-[05:39:03] [Server thread/INFO]: ElRichMC left the game
-[05:39:14] [User Authenticator #6/INFO]: UUID of player ElRichMC is fd2d28f2-0c4c-3128-908b-ae777a62d480
-[05:39:14] [Server thread/INFO]: ElRichMC joined the game
-[05:39:14] [Server thread/INFO]: ElRichMC[/127.16.206.76:38647] logged in with entity id 38765 at ([world]-4.699999988079071, -41.0, -26.69999998807907)
-[05:39:46] [Server thread/INFO]: FrxnJP has made the advancement [Who is Cutting Onions?]
-[05:42:05] [Server thread/INFO]: ElRichMC lost connection: Disconnected
-[05:42:05] [Server thread/INFO]: ElRichMC left the game
-[05:42:23] [User Authenticator #7/INFO]: UUID of player ElRichMC is fd2d28f2-0c4c-3128-908b-ae777a62d480
-[05:42:23] [Server thread/INFO]: ElRichMC joined the game
-[05:42:23] [Server thread/INFO]: ElRichMC[/127.16.206.76:57325] logged in with entity id 40939 at ([world]3.686206471335303, 65.0, -12.699999988079071)
-[05:44:55] [Server thread/INFO]: ElRichMC lost connection: Disconnected
-[05:44:55] [Server thread/INFO]: ElRichMC left the game
-[05:47:26] [Server thread/INFO]: mahecha has made the advancement [Sweet Dreams]
-[05:47:56] [Async Chat Thread - #39/INFO]: [Not Secure] <mahecha> dormir
-[05:48:00] [Server thread/INFO]: FrxnJP has made the advancement [Sweet Dreams]
-[05:51:46] [Async Chat Thread - #41/INFO]: [Not Secure] <FrxnJP> el narrador se desactiva desde opciones de accesibilidad del minecraf, o algo asi
-[05:52:15] [Async Chat Thread - #42/INFO]: [Not Secure] <FrxnJP> ta como temprano
-[05:52:33] [Server thread/INFO]: Stopping the server
-[05:52:33] [Server thread/INFO]: Stopping server
-[05:52:33] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.0-SNAPSHOT
-[05:52:33] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[05:52:33] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[05:52:33] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.1
-[05:52:33] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.3
-[05:52:33] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[05:52:33] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
-[05:52:33] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[05:52:33] [Server thread/INFO]: Saving players
-[05:52:33] [Server thread/INFO]: FrxnJP lost connection: Server closed
-[05:52:33] [Server thread/INFO]: FrxnJP left the game
-[05:52:33] [Server thread/INFO]: mahecha lost connection: Server closed
-[05:52:33] [Server thread/INFO]: mahecha left the game
-[05:52:33] [Server thread/INFO]: Akai120 lost connection: Server closed
-[05:52:33] [Server thread/INFO]: Akai120 left the game
-[05:52:33] [WebSocketConnectReadThread-470/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[05:52:33] [Server thread/INFO]: Saving worlds
-[05:52:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[05:52:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[05:52:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[05:52:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[05:52:34] [Server thread/INFO]: [ChunkHolderManager] Saved 1181 block chunks, 1071 entity chunks, 4 poi chunks in world 'world' in 1.57s
-[05:52:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05:52:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[05:52:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[05:52:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[05:52:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[05:52:35] [Server thread/INFO]: [ChunkHolderManager] Saved 959 block chunks, 91 entity chunks, 0 poi chunks in world 'world_nether' in 0.54s
-[05:52:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05:52:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[05:52:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[05:52:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[05:52:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[05:52:35] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[05:52:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05:52:35] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[05:52:35] [Server thread/INFO]: Flushing Chunk IO
-[05:52:35] [Server thread/INFO]: Closing Thread Pool
-[05:52:35] [Server thread/INFO]: Closing Server
+[01:26:26] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[01:26:27] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[01:26:27] [Server thread/INFO]: [floodgate] Took 1,666ms to boot Floodgate
+[01:26:27] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.3
+[01:26:27] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.1
+[01:26:27] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.0-SNAPSHOT
+[01:26:29] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[01:26:29] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[01:26:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:26:29] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
+[01:26:30] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[01:26:31] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.0.
+[01:26:31] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[01:26:32] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[01:26:32] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
+[01:26:32] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
+[01:26:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:26:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:26:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:26:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:26:32] [Server thread/INFO]: Preparing level "world"
+[01:26:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:26:34] [Server thread/INFO]: Time elapsed: 870 ms
+[01:26:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:26:34] [Server thread/INFO]: Time elapsed: 195 ms
+[01:26:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:26:34] [Server thread/INFO]: Time elapsed: 152 ms
+[01:26:34] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[01:26:35] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
+[01:26:35] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.13).
+[01:26:35] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[01:26:35] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[01:26:37] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.3
+[01:26:37] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.0-SNAPSHOT
+[01:26:39] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[01:26:39] [Server thread/INFO]: [Geyser-Spigot] 
+[01:26:39] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.0-b745 (git-master-58e2f17)
+[01:26:39] [Server thread/INFO]: [Geyser-Spigot] 
+[01:26:39] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[01:26:53] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 1125
+[01:26:53] [Server thread/INFO]: [Geyser-Spigot] Done (14.289s)! Run /geyser help for help!
+[01:26:54] [Server thread/INFO]: Running delayed init tasks
+[01:26:54] [Server thread/INFO]: Done (35.132s)! For help, type "help"
+[01:26:54] [Server thread/INFO]: Timings Reset
+[01:26:54] [Craft Scheduler Thread - 4 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[01:26:54] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:26:54] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[01:26:54] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[01:26:54] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
+[01:26:54] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[01:26:54] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[01:26:54] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:26:54] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     Version: 15.5.1
+[01:26:54] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     Commit: d5d8613
+[01:26:54] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
+[01:26:54] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:26:54] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[01:26:54] [Craft Scheduler Thread - 5 - SkinsRestorer/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[01:28:25] [User Authenticator #0/INFO]: UUID of player Akai120 is c7e92eb0-d98e-380c-8bf3-90f90cd9654a
+[01:28:28] [Server thread/INFO]: Akai120 joined the game
+[01:28:28] [Server thread/INFO]: Akai120[/127.117.58.94:39853] logged in with entity id 275 at ([world]-305.9832316867536, 63.0, -80.64763794949226)
+[01:34:29] [Server thread/INFO]: Akai120 lost connection: Disconnected
+[01:34:29] [Server thread/INFO]: Akai120 left the game
+[01:35:01] [User Authenticator #1/INFO]: UUID of player Akai120 is c7e92eb0-d98e-380c-8bf3-90f90cd9654a
+[01:35:01] [Server thread/INFO]: Akai120 joined the game
+[01:35:01] [Server thread/INFO]: Akai120[/127.117.58.94:44439] logged in with entity id 1117 at ([world]-300.878918131296, 61.14308587588327, -66.46295483678861)
