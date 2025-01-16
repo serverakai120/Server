@@ -280,3 +280,45 @@ Reason: Banned by an operator.
 [03:37:30] [Server thread/INFO]: mahecha fell from a high place
 [03:38:21] [Server thread/INFO]: mahecha lost connection: Disconnected
 [03:38:21] [Server thread/INFO]: mahecha left the game
+[03:51:32] [User Authenticator #9/INFO]: UUID of player Akai120 is c7e92eb0-d98e-380c-8bf3-90f90cd9654a
+[03:51:32] [Server thread/INFO]: Akai120 lost connection: You logged in from another location
+[03:51:32] [Server thread/INFO]: Akai120 left the game
+[03:51:32] [Server thread/INFO]: Akai120 joined the game
+[03:51:32] [Server thread/INFO]: Akai120[/127.16.206.76:41867] logged in with entity id 77036 at ([world]-435.2976599979485, 71.0, 135.78482834915988)
+[03:51:37] [Server thread/INFO]: Akai120 lost connection: Disconnected
+[03:51:37] [Server thread/INFO]: Akai120 left the game
+[03:54:10] [User Authenticator #10/INFO]: UUID of player Akai120 is c7e92eb0-d98e-380c-8bf3-90f90cd9654a
+[03:54:10] [Server thread/INFO]: Akai120 joined the game
+[03:54:10] [Server thread/INFO]: Akai120[/127.16.206.76:52975] logged in with entity id 77414 at ([world]-435.2976599979485, 71.0, 135.78482834915988)
+[03:54:15] [Server thread/INFO]: Akai120 lost connection: Disconnected
+[03:54:15] [Server thread/INFO]: Akai120 left the game
+[03:54:27] [User Authenticator #10/INFO]: UUID of player DrDonut is 96e12a50-f33c-3a4d-ac9a-caf1a6a5d54b
+[03:54:27] [Server thread/INFO]: DrDonut joined the game
+[03:54:27] [Server thread/INFO]: DrDonut[/127.16.206.76:38817] logged in with entity id 77587 at ([world]-9.5, 64.0, 6.5)
+[03:54:52] [Server thread/INFO]: DrDonut lost connection: Disconnected
+[03:54:52] [Server thread/INFO]: DrDonut left the game
+[03:54:56] [User Authenticator #10/INFO]: UUID of player DrDonut is 96e12a50-f33c-3a4d-ac9a-caf1a6a5d54b
+[03:54:56] [Server thread/INFO]: DrDonut joined the game
+[03:54:56] [Server thread/INFO]: DrDonut[/127.16.206.76:57975] logged in with entity id 77877 at ([world]24.588626365072415, 71.0, -39.79444190640072)
+[03:55:13] [Server thread/INFO]: DrDonut lost connection: Disconnected
+[03:55:13] [Server thread/INFO]: DrDonut left the game
+[03:55:19] [User Authenticator #10/INFO]: UUID of player Akai120 is c7e92eb0-d98e-380c-8bf3-90f90cd9654a
+[03:55:19] [Server thread/INFO]: Akai120 joined the game
+[03:55:19] [Server thread/INFO]: Akai120[/127.16.206.76:37173] logged in with entity id 78078 at ([world]-435.2976599979485, 71.0, 135.78482834915988)
+[03:55:30] [Server thread/INFO]: Akai120 lost connection: Disconnected
+[03:55:30] [Server thread/INFO]: Akai120 left the game
+[03:55:38] [User Authenticator #10/INFO]: UUID of player DrDonut is 96e12a50-f33c-3a4d-ac9a-caf1a6a5d54b
+[03:55:38] [Server thread/INFO]: DrDonut joined the game
+[03:55:38] [Server thread/INFO]: DrDonut[/127.16.206.76:36905] logged in with entity id 78269 at ([world]24.536814309685294, 70.0, -44.65707571567588)
+[03:57:37] [Server thread/INFO]: DrDonut lost connection: Disconnected
+[03:57:37] [Server thread/INFO]: DrDonut left the game
+[03:58:16] [User Authenticator #11/INFO]: UUID of player DrDonut is 96e12a50-f33c-3a4d-ac9a-caf1a6a5d54b
+[03:58:16] [Server thread/INFO]: DrDonut joined the game
+[03:58:16] [Server thread/INFO]: DrDonut[/127.16.206.76:60653] logged in with entity id 79168 at ([world]60.94757719463403, 66.0, 26.071842536305308)
+[03:58:58] [User Authenticator #11/INFO]: UUID of player Akai120 is c7e92eb0-d98e-380c-8bf3-90f90cd9654a
+[03:58:58] [Server thread/INFO]: Akai120 joined the game
+[03:58:58] [Server thread/INFO]: Akai120[/127.16.206.76:42133] logged in with entity id 79415 at ([world]-435.2976599979485, 71.0, 135.78482834915988)
+[03:59:07] [Server thread/INFO]: Akai120 issued server command: /op DrDonut
+[03:59:07] [Server thread/INFO]: [Akai120: Made DrDonut a server operator]
+[03:59:11] [Server thread/INFO]: Akai120 lost connection: Disconnected
+[03:59:11] [Server thread/INFO]: Akai120 left the game

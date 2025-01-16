@@ -1,5 +1,11 @@
 [
   {
+    "uuid": "96e12a50-f33c-3a4d-ac9a-caf1a6a5d54b",
+    "name": "DrDonut",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "c7e92eb0-d98e-380c-8bf3-90f90cd9654a",
     "name": "Akai120",
     "level": 4,
