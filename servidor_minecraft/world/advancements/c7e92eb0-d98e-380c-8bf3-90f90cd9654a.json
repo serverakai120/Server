@@ -440,6 +440,7 @@
     "criteria": {
       "cooked_porkchop": "2025-01-15 05:01:50 +0000",
       "cooked_mutton": "2025-01-15 04:51:36 +0000",
+      "cooked_beef": "2025-01-16 03:41:15 +0000",
       "bread": "2025-01-15 05:06:04 +0000",
       "rotten_flesh": "2025-01-15 05:42:11 +0000",
       "glow_berries": "2025-01-15 05:42:32 +0000",
@@ -1452,15 +1453,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2025-01-16 03:35:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-01-16 03:09:17 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2025-01-16 03:35:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2025-01-16 02:52:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2025-01-16 03:35:05 +0000"
     },
     "done": true
   },
@@ -1482,6 +1501,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2025-01-16 03:35:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/andesite_wall": {
     "criteria": {
       "has_andesite": "2025-01-16 03:09:17 +0000"
@@ -1500,9 +1525,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2025-01-16 03:35:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-01-16 03:09:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2025-01-16 03:35:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2025-01-16 03:35:05 +0000"
     },
     "done": true
   },

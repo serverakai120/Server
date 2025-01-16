@@ -276,3 +276,7 @@ java.lang.NoSuchMethodError: 'void com.viaversion.viabackwards.protocol.v1_13_1t
 Reason: Banned by an operator.
 [03:27:46] [Server thread/INFO]: com.mojang.authlib.GameProfile@56b03afe[id=fd2d28f2-0c4c-3128-908b-ae777a62d480,name=ElRichMC,properties={textures=[com.mojang.authlib.properties.Property@5fe28462]},legacy=false] (/127.16.206.76:41263) lost connection: You are banned from this server.
 Reason: Banned by an operator.
+[03:31:32] [Server thread/INFO]: mahecha burned to death
+[03:37:30] [Server thread/INFO]: mahecha fell from a high place
+[03:38:21] [Server thread/INFO]: mahecha lost connection: Disconnected
+[03:38:21] [Server thread/INFO]: mahecha left the game
