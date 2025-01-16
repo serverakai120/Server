@@ -183,3 +183,20 @@ java.lang.NoSuchMethodError: 'void com.viaversion.viabackwards.protocol.v1_13_1t
 [02:35:08] [Server thread/INFO]: OmarRxa lost connection: Disconnected
 [02:35:08] [Server thread/INFO]: OmarRxa left the game
 [02:36:33] [Server thread/INFO]: .Sincontexto2377 has made the advancement [Sweet Dreams]
+[02:40:31] [Server thread/INFO]: Akai120 lost connection: Disconnected
+[02:40:31] [Server thread/INFO]: Akai120 left the game
+[02:41:14] [User Authenticator #6/INFO]: UUID of player Akai120 is c7e92eb0-d98e-380c-8bf3-90f90cd9654a
+[02:41:14] [Server thread/INFO]: Akai120 joined the game
+[02:41:14] [Server thread/INFO]: Akai120[/127.117.58.94:42077] logged in with entity id 39129 at ([world]-802.3956140736123, 58.0, 444.04806139668483)
+[02:45:36] [localSession-7-2/INFO]: [Geyser-Spigot] Sincontexto2377 has disconnected from the Java server because of Bedrock client disconnected
+[02:45:36] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Sincontexto2377 disconnected
+[02:45:36] [Server thread/INFO]: .Sincontexto2377 lost connection: Disconnected
+[02:45:36] [Server thread/INFO]: .Sincontexto2377 left the game
+[02:46:24] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Sincontexto2377
+[02:46:24] [localSession-7-3/INFO]: [Geyser-Spigot] Sincontexto2377 (logged in as: Sincontexto2377) has connected to the Java server
+[02:46:24] [Geyser Spigot connection thread-6-4/INFO]: UUID of player .Sincontexto2377 is 00000000-0000-0000-0009-01fba52c7005
+[02:46:24] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Sincontexto2377 joined (UUID: 00000000-0000-0000-0009-01fba52c7005)
+[02:46:24] [Server thread/INFO]: .Sincontexto2377 joined the game
+[02:46:25] [Server thread/INFO]: .Sincontexto2377[/127.0.0.1:0] logged in with entity id 42766 at ([world]-343.41205, 76.0, 313.62967)
+[02:46:40] [Server thread/INFO]: ElRichMC issued server command: /bukkit:plugins
+[02:47:00] [Server thread/INFO]: ElRichMC issued server command: /gamemode creative

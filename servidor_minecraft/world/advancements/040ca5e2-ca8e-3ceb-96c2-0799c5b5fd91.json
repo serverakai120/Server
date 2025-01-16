@@ -587,6 +587,7 @@
       "cooked_porkchop": "2025-01-16 02:27:24 +0000",
       "cooked_mutton": "2025-01-15 04:34:26 +0000",
       "cooked_beef": "2025-01-15 05:38:15 +0000",
+      "porkchop": "2025-01-16 02:43:36 +0000",
       "bread": "2025-01-15 05:21:44 +0000",
       "golden_apple": "2025-01-15 05:22:00 +0000",
       "rotten_flesh": "2025-01-15 04:58:05 +0000",
@@ -616,6 +617,7 @@
     "criteria": {
       "minecraft:skeleton": "2025-01-15 04:47:17 +0000",
       "minecraft:spider": "2025-01-15 04:40:03 +0000",
+      "minecraft:creeper": "2025-01-16 02:39:02 +0000",
       "minecraft:piglin": "2025-01-15 05:33:39 +0000",
       "minecraft:enderman": "2025-01-16 02:07:16 +0000",
       "minecraft:zombie": "2025-01-15 04:38:33 +0000",
@@ -1836,6 +1838,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2025-01-16 02:42:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_terracotta": {
     "criteria": {
       "has_terracotta": "2025-01-16 02:08:08 +0000"
@@ -1926,6 +1934,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-01-16 02:42:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gray_terracotta": {
     "criteria": {
       "has_terracotta": "2025-01-16 02:08:08 +0000"
@@ -1938,6 +1952,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-01-16 02:42:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/green_terracotta": {
     "criteria": {
       "has_terracotta": "2025-01-16 02:08:08 +0000"
@@ -1947,6 +1967,12 @@
   "minecraft:recipes/building_blocks/brown_terracotta": {
     "criteria": {
       "has_terracotta": "2025-01-16 02:08:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2025-01-16 02:42:27 +0000"
     },
     "done": true
   },
