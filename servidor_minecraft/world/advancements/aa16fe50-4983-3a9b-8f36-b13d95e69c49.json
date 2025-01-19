@@ -491,6 +491,8 @@
       "minecraft:blaze": "2025-01-17 04:22:59 +0000",
       "minecraft:skeleton": "2025-01-17 03:22:37 +0000",
       "minecraft:zoglin": "2025-01-17 04:29:24 +0000",
+      "minecraft:hoglin": "2025-01-19 06:17:11 +0000",
+      "minecraft:guardian": "2025-01-19 06:24:36 +0000",
       "minecraft:spider": "2025-01-17 03:19:18 +0000",
       "minecraft:creeper": "2025-01-17 03:24:35 +0000",
       "minecraft:zombified_piglin": "2025-01-17 04:25:13 +0000",
@@ -2172,6 +2174,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2025-01-19 06:24:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_slab": {
     "criteria": {
       "has_stone_bricks": "2025-01-19 06:01:34 +0000"
@@ -2232,6 +2240,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2025-01-19 06:24:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2025-01-19 06:05:41 +0000"
@@ -2241,6 +2255,12 @@
   "minecraft:recipes/decorations/black_glazed_terracotta": {
     "criteria": {
       "has_black_terracotta": "2025-01-19 06:05:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2025-01-19 06:24:39 +0000"
     },
     "done": true
   },
@@ -2259,6 +2279,12 @@
   "minecraft:recipes/building_blocks/granite": {
     "criteria": {
       "has_quartz": "2025-01-19 05:57:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_glazed_terracotta": {
+    "criteria": {
+      "has_green_terracotta": "2025-01-19 06:24:20 +0000"
     },
     "done": true
   },
