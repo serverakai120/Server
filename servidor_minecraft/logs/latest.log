@@ -364,3 +364,25 @@ java.lang.NoSuchMethodError: 'void com.viaversion.viabackwards.protocol.v1_13_1t
 [06:45:55] [Async Chat Thread - #12/INFO]: [Not Secure] <Joacox> Bro que te paso
 [06:47:30] [Server thread/INFO]: mahecha fell out of the world
 [06:47:56] [Server thread/INFO]: .Athur230413 fell out of the world
+[06:50:46] [Server thread/INFO]: Joacox lost connection: Disconnected
+[06:50:46] [Server thread/INFO]: Joacox left the game
+[06:54:02] [User Authenticator #6/INFO]: UUID of player Joacox is aa16fe50-4983-3a9b-8f36-b13d95e69c49
+[06:54:02] [Server thread/INFO]: Joacox joined the game
+[06:54:02] [Server thread/INFO]: Joacox[/127.165.138.98:55585] logged in with entity id 4882 at ([OneBlock]204.88715329993846, 57.0, -4.520996845487624)
+[06:54:09] [Server thread/INFO]: mahecha has made the advancement [Hot Stuff]
+[06:54:26] [Server thread/INFO]: Joacox issued server command: /gamemode creative
+[06:54:26] [Server thread/INFO]: [Joacox: Set own game mode to Creative Mode]
+[06:55:15] [Server thread/INFO]: Joacox issued server command: /msg .Athur230413 Eso quitalo we
+[06:55:21] [Server thread/INFO]: Joacox issued server command: /r xddd
+[06:55:28] [Server thread/INFO]: Joacox issued server command: /msg .Athur230413 XDDDD
+[06:55:41] [Server thread/WARN]: .Athur230413 moved wrongly!
+[06:57:04] [Server thread/INFO]: Joacox issued server command: /msg .Athur230413 Nomas controla el fuego we
+[06:57:18] [Server thread/INFO]: .Athur230413 issued server command: /r ok
+[06:57:25] [Async Chat Thread - #15/INFO]: [Not Secure] <FrxnJP> wa ta fa
+[06:57:26] [Server thread/INFO]: FrxnJP issued server command: /ob j
+[06:57:27] [Server thread/INFO]: FrxnJP fell from a high place
+[06:57:35] [Async Chat Thread - #16/INFO]: [Not Secure] <Joacox> Que te paso FrxnJ?
+[06:57:50] [Async Chat Thread - #15/INFO]: [Not Secure] <FrxnJP> m cai, aunq antes m tiro un esqueleto
+[06:58:29] [Server thread/INFO]: .Athur230413 fell out of the world
+[06:58:39] [Server thread/INFO]: mahecha fell out of the world
+[06:58:56] [Server thread/INFO]: .Athur230413 fell out of the world

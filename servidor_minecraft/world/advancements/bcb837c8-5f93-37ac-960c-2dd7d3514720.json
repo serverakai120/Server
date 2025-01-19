@@ -240,6 +240,12 @@
     },
     "done": true
   },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-01-19 06:54:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
     "criteria": {
       "has_raw_copper": "2025-01-19 06:23:48 +0000"
@@ -1360,11 +1366,13 @@
     "criteria": {
       "minecraft:blaze": "2025-01-19 06:37:43 +0000",
       "minecraft:pillager": "2025-01-19 06:04:48 +0000",
+      "minecraft:zoglin": "2025-01-19 06:49:43 +0000",
       "minecraft:spider": "2025-01-19 06:46:33 +0000",
       "minecraft:creeper": "2025-01-19 06:04:02 +0000",
       "minecraft:zombified_piglin": "2025-01-19 06:37:09 +0000",
       "minecraft:wither_skeleton": "2025-01-19 06:00:42 +0000",
-      "minecraft:piglin": "2025-01-19 06:02:30 +0000"
+      "minecraft:piglin": "2025-01-19 06:02:30 +0000",
+      "minecraft:zombie": "2025-01-19 06:51:44 +0000"
     },
     "done": false
   },
@@ -1587,6 +1595,12 @@
   "minecraft:recipes/building_blocks/cracked_deepslate_bricks": {
     "criteria": {
       "has_deepslate_bricks": "2025-01-19 06:45:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_planks": {
+    "criteria": {
+      "has_logs": "2025-01-19 06:52:15 +0000"
     },
     "done": true
   },
