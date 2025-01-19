@@ -353,3 +353,14 @@ java.lang.NoSuchMethodError: 'void com.viaversion.viabackwards.protocol.v1_13_1t
 [06:37:04] [Server thread/INFO]: Joacox issued server command: /gamemode creative
 [06:37:04] [Server thread/INFO]: [Joacox: Set own game mode to Creative Mode]
 [06:39:41] [Server thread/INFO]: .Athur230413 has made the advancement [Cover Me with Diamonds]
+[06:43:42] [User Authenticator #5/INFO]: UUID of player FrxnJP is 040ca5e2-ca8e-3ceb-96c2-0799c5b5fd91
+[06:43:42] [Server thread/INFO]: FrxnJP joined the game
+[06:43:42] [Server thread/INFO]: FrxnJP[/127.215.164.187:43449] logged in with entity id 4391 at ([world]-194.02505915214445, -15.0, -322.67680085294035)
+[06:44:11] [Server thread/INFO]: FrxnJP issued server command: /ob j
+[06:44:26] [Server thread/INFO]: FrxnJP fell out of the world
+[06:44:41] [Async Chat Thread - #10/INFO]: [Not Secure] <FrxnJP> wa ta fa
+[06:44:49] [Async Chat Thread - #11/INFO]: [Not Secure] <Joacox> Qie te pado?
+[06:44:55] [Server thread/INFO]: FrxnJP fell out of the world
+[06:45:55] [Async Chat Thread - #12/INFO]: [Not Secure] <Joacox> Bro que te paso
+[06:47:30] [Server thread/INFO]: mahecha fell out of the world
+[06:47:56] [Server thread/INFO]: .Athur230413 fell out of the world
