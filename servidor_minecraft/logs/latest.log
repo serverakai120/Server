@@ -281,3 +281,37 @@ java.lang.NoSuchMethodError: 'void com.viaversion.viabackwards.protocol.v1_13_1t
 [05:58:56] [Async Chat Thread - #2/INFO]: [Not Secure] <Akai120> lo siento bro soy un dios cruel pero justo
 [05:59:14] [Server thread/INFO]: .Athur230413 issued server command: /ob join
 [05:59:19] [Server thread/INFO]: Joacox issued server command: /ob invite .Athur230412
+[05:59:37] [Async Chat Thread - #3/INFO]: [Not Secure] <Joacox> Bro mis cosas :(
+[05:59:39] [Server thread/INFO]: .Athur230413 fell out of the world
+[06:00:24] [Async Chat Thread - #3/INFO]: [Not Secure] <mahecha> diamante
+[06:00:40] [User Authenticator #4/INFO]: UUID of player FrxnJP is 040ca5e2-ca8e-3ceb-96c2-0799c5b5fd91
+[06:00:40] [Server thread/INFO]: FrxnJP joined the game
+[06:00:40] [Server thread/INFO]: FrxnJP[/127.215.164.187:34849] logged in with entity id 1225 at ([world]-194.02505915214445, -15.0, -322.67680085294035)
+[06:00:41] [Server thread/INFO]: mahecha has made the advancement [Diamonds!]
+[06:00:42] [Server thread/INFO]: mahecha has made the advancement [Monster Hunter]
+[06:00:54] [Server thread/INFO]: .Sincontexto2377 has made the advancement [Hot Stuff]
+[06:01:06] [Server thread/INFO]: Joacox issued server command: /ob
+[06:01:09] [Server thread/INFO]: Akai120 has made the advancement [Hot Stuff]
+[06:01:39] [Server thread/INFO]: FrxnJP lost connection: Disconnected
+[06:01:39] [Server thread/INFO]: FrxnJP left the game
+[06:02:38] [Server thread/INFO]: mahecha has made the advancement [Stone Age]
+[06:03:05] [Server thread/INFO]: Villager EntityVillager['Librarian'/188, uuid='38b82f0a-0cbd-4fd5-a518-641d0503363b', l='ServerLevel[OneBlock]', x=123.70, y=58.00, z=8.60, cpos=[7, 0], tl=198766, v=true] died, message: 'Librarian was slain by Zombie'
+[06:03:05] [Server thread/INFO]: .Athur230413 has made the advancement [Stone Age]
+[06:03:19] [Server thread/INFO]: mahecha has made the advancement [Getting an Upgrade]
+[06:03:20] [Server thread/INFO]: Villager EntityVillager['Villager'/190, uuid='8a49368b-c183-4bec-9b32-9109f179ddcc', l='ServerLevel[OneBlock]', x=126.10, y=-267.52, z=12.75, cpos=[7, 0], tl=101296, v=true] died, message: 'Villager fell out of the world'
+[06:03:23] [Server thread/INFO]: Villager EntityVillager['Armorer'/189, uuid='18216441-eb1f-4c4c-945b-517e5b6cc92b', l='ServerLevel[OneBlock]', x=125.30, y=-161.82, z=11.77, cpos=[7, 0], tl=96140, v=true] died, message: 'Armorer fell out of the world'
+[06:04:20] [Server thread/INFO]: .Athur230413 has made the advancement [Getting an Upgrade]
+[06:05:11] [Server thread/INFO]: Joacox has made the advancement [Sneak 100]
+[06:06:11] [Server thread/INFO]: .Sincontexto2377 was slain by Zoglin
+[06:06:17] [Server thread/INFO]: mahecha has made the advancement [Isn't It Iron Pick]
+[06:06:23] [Server thread/INFO]: mahecha fell out of the world
+[06:06:28] [Async Chat Thread - #4/INFO]: [Not Secure] <.Sincontexto2377> hjajajajja
+[06:07:58] [Server thread/INFO]: Joacox issued server command: /ob invite .Athur230413
+[06:08:03] [Server thread/WARN]: .Athur230413 moved too quickly! -189.89620000000002,0.20130000000000337,0.9840464999999998
+[06:08:16] [Server thread/INFO]: .Athur230413 was slain by Joacox
+[06:08:32] [localSession-7-2/INFO]: [Geyser-Spigot] Sincontexto2377 has disconnected from the Java server because of Bedrock client disconnected
+[06:08:32] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Sincontexto2377 disconnected
+[06:08:32] [Server thread/INFO]: .Sincontexto2377 lost connection: Disconnected
+[06:08:32] [Server thread/INFO]: .Sincontexto2377 left the game
+[06:09:21] [Server thread/INFO]: .Athur230413 has made the advancement [Diamonds!]
+[06:09:21] [Server thread/INFO]: mahecha fell out of the world
