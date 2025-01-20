@@ -173,3 +173,5 @@ java.lang.NoSuchMethodError: 'void com.viaversion.viabackwards.protocol.v1_13_1t
 [03:24:23] [Server thread/INFO]: Villager EntityVillager['Villager'/368, uuid='f418a2d1-d320-4c06-a601-b6a0ba01e136', l='ServerLevel[OneBlock]', x=184.45, y=57.00, z=17.30, cpos=[11, 1], tl=2303, v=true] died, message: 'Villager was slain by Joacox'
 [03:24:38] [Server thread/INFO]: Villager EntityVillager['Villager'/370, uuid='99037993-160c-4a2d-a2d2-5caf1c87a9d0', l='ServerLevel[OneBlock]', x=180.42, y=57.00, z=16.26, cpos=[11, 1], tl=744, v=true] died, message: 'Villager was slain by Joacox'
 [03:25:49] [Server thread/INFO]: Joacox has made the advancement [What a Deal!]
+[03:33:15] [Server thread/INFO]: Villager EntityVillager['Villager'/473, uuid='da66d099-1ed4-4973-b593-e5802795b270', l='ServerLevel[OneBlock]', x=172.70, y=57.00, z=11.40, cpos=[10, 0], tl=1242, v=true] died, message: 'Villager was slain by Joacox'
+[03:34:25] [Server thread/INFO]: Joacox has made the advancement [Enchanter]
