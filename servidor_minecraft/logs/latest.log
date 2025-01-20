@@ -183,3 +183,14 @@ java.lang.NoSuchMethodError: 'void com.viaversion.viabackwards.protocol.v1_13_1t
 [03:52:29] [Server thread/INFO]: Joacox issued server command: /ob join
 [03:52:36] [Server thread/INFO]: Joacox issued server command: /gamemode creative
 [03:52:36] [Server thread/INFO]: [Joacox: Set own game mode to Creative Mode]
+[03:53:51] [Server thread/INFO]: Joacox has completed the challenge [Cover Me in Debris]
+[03:55:59] [Server thread/INFO]: Joacox issued server command: /gamemode survival
+[03:55:59] [Server thread/INFO]: [Joacox: Set own game mode to Survival Mode]
+[03:56:29] [Server thread/INFO]: Joacox issued server command: /gamemode creative
+[03:56:29] [Server thread/INFO]: [Joacox: Set own game mode to Creative Mode]
+[03:57:40] [Server thread/INFO]: Joacox issued server command: /gamemode survival
+[03:57:40] [Server thread/INFO]: [Joacox: Set own game mode to Survival Mode]
+[03:58:58] [Server thread/INFO]: Joacox issued server command: /damage @s 100
+[03:58:58] [Server thread/INFO]: Joacox died
+[03:58:58] [Server thread/INFO]: [Joacox: Applied 100.0 damage to Joacox]
+[03:59:40] [Server thread/INFO]: Joacox has completed the challenge [It Spreads]
