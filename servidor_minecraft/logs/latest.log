@@ -166,3 +166,7 @@ java.lang.NoSuchMethodError: 'void com.viaversion.viabackwards.protocol.v1_13_1t
 [02:46:14] [Async Chat Thread - #0/INFO]: [Not Secure] <Joacox> Si sirbe
 [02:46:49] [Server thread/INFO]: Akai120 lost connection: Disconnected
 [02:46:49] [Server thread/INFO]: Akai120 left the game
+[03:16:40] [Server thread/INFO]: Joacox has made the advancement [Sweet Dreams]
+[03:22:04] [Server thread/INFO]: Joacox issued server command: /effect give @s minecraft:luck infinite 255
+[03:22:04] [Server thread/INFO]: [Joacox: Applied effect Luck to Joacox]
+[03:22:24] [Server thread/INFO]: Villager EntityVillager['Villager'/367, uuid='89fa5dcc-8745-40b6-89b8-745d4131d8ed', l='ServerLevel[OneBlock]', x=172.70, y=57.00, z=11.50, cpos=[10, 0], tl=1036, v=true] died, message: 'Villager was slain by Joacox'
