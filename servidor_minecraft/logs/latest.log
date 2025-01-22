@@ -182,3 +182,105 @@ java.lang.NoSuchMethodError: 'void com.viaversion.viabackwards.protocol.v1_13_1t
 [04:10:52] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Truenoreal123 joined (UUID: 00000000-0000-0000-0009-01fcdcfc7257)
 [04:10:52] [Server thread/INFO]: .Truenoreal123 joined the game
 [04:10:52] [Server thread/INFO]: .Truenoreal123[/127.0.0.1:0] logged in with entity id 588 at ([OneBlock]308.05298, 58.0, 8.561885)
+[04:11:05] [Server thread/INFO]: ElRichMC issued server command: /ob IDreset
+[04:11:09] [Server thread/INFO]: ElRichMC issued server command: /ob join
+[04:11:26] [localSession-7-2/INFO]: [Geyser-Spigot] Truenoreal123 has disconnected from the Java server because of Bedrock client timed out
+[04:11:26] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Truenoreal123 disconnected
+[04:11:26] [Server thread/INFO]: .Truenoreal123 lost connection: Disconnected
+[04:11:26] [Server thread/INFO]: .Truenoreal123 left the game
+[04:11:28] [Server thread/INFO]: ElRichMC fell out of the world
+[04:11:42] [Server thread/INFO]: ElRichMC fell out of the world
+[04:11:43] [User Authenticator #1/INFO]: UUID of player Akai120 is c7e92eb0-d98e-380c-8bf3-90f90cd9654a
+[04:11:43] [Server thread/INFO]: Akai120 joined the game
+[04:11:43] [Server thread/INFO]: Akai120[/127.117.58.94:44337] logged in with entity id 716 at ([OneBlock]6.030944873598889, 60.0, 7.276678335325093)
+[04:11:48] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Truenoreal123
+[04:11:48] [localSession-7-3/INFO]: [Geyser-Spigot] Truenoreal123 (logged in as: Truenoreal123) has connected to the Java server
+[04:11:49] [Geyser Spigot connection thread-6-4/INFO]: UUID of player .Truenoreal123 is 00000000-0000-0000-0009-01fcdcfc7257
+[04:11:49] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Truenoreal123 joined (UUID: 00000000-0000-0000-0009-01fcdcfc7257)
+[04:11:49] [Server thread/INFO]: .Truenoreal123 joined the game
+[04:11:49] [Server thread/INFO]: .Truenoreal123[/127.0.0.1:0] logged in with entity id 723 at ([OneBlock]308.05298, 58.0, 8.561885)
+[04:12:01] [Server thread/INFO]: ElRichMC fell out of the world
+[04:12:14] [Async Chat Thread - #1/INFO]: [Not Secure] <.Truenoreal123> hasme tp a ti
+[04:12:18] [Async Chat Thread - #2/INFO]: [Not Secure] <Akai120> Estan intentando usar comando
+[04:12:27] [Async Chat Thread - #1/INFO]: [Not Secure] <ElRichMC> quien
+[04:12:28] [localSession-7-3/INFO]: [Geyser-Spigot] Truenoreal123 has disconnected from the Java server because of Bedrock client timed out
+[04:12:28] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .Truenoreal123 disconnected
+[04:12:28] [Server thread/INFO]: .Truenoreal123 lost connection: Disconnected
+[04:12:28] [Server thread/INFO]: .Truenoreal123 left the game
+[04:12:32] [Async Chat Thread - #2/INFO]: [Not Secure] <Akai120> tu xd
+[04:12:34] [Async Chat Thread - #1/INFO]: [Not Secure] <ElRichMC> ?
+[04:12:39] [Async Chat Thread - #2/INFO]: [Not Secure] <ElRichMC> Me acabo de unir xd
+[04:12:39] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Truenoreal123
+[04:12:39] [localSession-7-4/INFO]: [Geyser-Spigot] Truenoreal123 (logged in as: Truenoreal123) has connected to the Java server
+[04:12:40] [Geyser Spigot connection thread-6-1/INFO]: UUID of player .Truenoreal123 is 00000000-0000-0000-0009-01fcdcfc7257
+[04:12:40] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Truenoreal123 joined (UUID: 00000000-0000-0000-0009-01fcdcfc7257)
+[04:12:40] [Server thread/INFO]: .Truenoreal123 joined the game
+[04:12:40] [Server thread/INFO]: .Truenoreal123[/127.0.0.1:0] logged in with entity id 743 at ([OneBlock]308.05298, 58.0, 8.561885)
+[04:12:50] [Async Chat Thread - #2/INFO]: [Not Secure] <Akai120> ./gamemode creative
+[04:12:53] [Server thread/INFO]: ElRichMC fell out of the world
+[04:12:55] [Async Chat Thread - #1/INFO]: [Not Secure] <Akai120> y otros xd
+[04:13:01] [Async Chat Thread - #2/INFO]: [Not Secure] <ElRichMC> Y yo como voy a usar comandos
+[04:13:07] [Server thread/INFO]: ElRichMC issued server command: /gamemode creative
+[04:13:24] [Async Chat Thread - #1/INFO]: [Not Secure] <ElRichMC> Me sale Uknowm command Type help for more
+[04:13:29] [localSession-7-4/INFO]: [Geyser-Spigot] Truenoreal123 has disconnected from the Java server because of Bedrock client timed out
+[04:13:29] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .Truenoreal123 disconnected
+[04:13:29] [Server thread/INFO]: .Truenoreal123 lost connection: Disconnected
+[04:13:29] [Server thread/INFO]: .Truenoreal123 left the game
+[04:13:40] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username Truenoreal123
+[04:13:40] [localSession-7-1/INFO]: [Geyser-Spigot] Truenoreal123 (logged in as: Truenoreal123) has connected to the Java server
+[04:13:40] [Geyser Spigot connection thread-6-2/INFO]: UUID of player .Truenoreal123 is 00000000-0000-0000-0009-01fcdcfc7257
+[04:13:40] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Truenoreal123 joined (UUID: 00000000-0000-0000-0009-01fcdcfc7257)
+[04:13:40] [Server thread/INFO]: .Truenoreal123 joined the game
+[04:13:40] [Server thread/INFO]: .Truenoreal123[/127.0.0.1:0] logged in with entity id 755 at ([OneBlock]258.72543, 58.0, 8.456558)
+[04:13:42] [Server thread/INFO]: Akai120 issued server command: /gamemode creative
+[04:13:42] [Server thread/INFO]: [Akai120: Set own game mode to Creative Mode]
+[04:13:51] [Server thread/INFO]: Villager EntityVillager['Villager'/52, uuid='d980e8d5-e2f7-4b58-9b6a-b330a1064f77', l='ServerLevel[OneBlock]', x=-2.21, y=58.00, z=8.43, cpos=[-1, 0], tl=152774, v=true] died, message: 'Villager was slain by Zombie'
+[04:14:09] [Server thread/INFO]: ElRichMC has made the advancement [Monster Hunter]
+[04:14:31] [localSession-7-1/INFO]: [Geyser-Spigot] Truenoreal123 has disconnected from the Java server because of Bedrock client timed out
+[04:14:31] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .Truenoreal123 disconnected
+[04:14:31] [Server thread/INFO]: .Truenoreal123 lost connection: Disconnected
+[04:14:31] [Server thread/INFO]: .Truenoreal123 left the game
+[04:14:57] [Server thread/INFO]: Akai120 issued server command: /gamemode spectator
+[04:14:57] [Server thread/INFO]: [Akai120: Set own game mode to Spectator Mode]
+[04:15:04] [Server thread/INFO]: Akai120 issued server command: /tp ElRichMC
+[04:15:04] [Server thread/INFO]: [Akai120: Teleported Akai120 to ElRichMC]
+[04:15:13] [Server thread/INFO]: ElRichMC fell out of the world
+[04:15:52] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Truenoreal123
+[04:15:52] [localSession-7-2/INFO]: [Geyser-Spigot] Truenoreal123 (logged in as: Truenoreal123) has connected to the Java server
+[04:15:52] [Geyser Spigot connection thread-6-3/INFO]: UUID of player .Truenoreal123 is 00000000-0000-0000-0009-01fcdcfc7257
+[04:15:52] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Truenoreal123 joined (UUID: 00000000-0000-0000-0009-01fcdcfc7257)
+[04:15:52] [Server thread/INFO]: .Truenoreal123 joined the game
+[04:15:52] [Server thread/INFO]: .Truenoreal123[/127.0.0.1:0] logged in with entity id 803 at ([OneBlock]261.42987, 58.0, 8.502578)
+[04:16:13] [Async Chat Thread - #3/INFO]: [Not Secure] <ElRichMC> Trueno
+[04:16:25] [localSession-7-2/INFO]: [Geyser-Spigot] Truenoreal123 has disconnected from the Java server because of Bedrock client timed out
+[04:16:25] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Truenoreal123 disconnected
+[04:16:25] [Server thread/INFO]: .Truenoreal123 lost connection: Disconnected
+[04:16:25] [Server thread/INFO]: .Truenoreal123 left the game
+[04:16:49] [Server thread/INFO]: ElRichMC issued server command: /ob IDreset
+[04:16:58] [Server thread/INFO]: ElRichMC fell out of the world
+[04:17:03] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Truenoreal123
+[04:17:03] [localSession-7-3/INFO]: [Geyser-Spigot] Truenoreal123 (logged in as: Truenoreal123) has connected to the Java server
+[04:17:04] [Geyser Spigot connection thread-6-4/INFO]: UUID of player .Truenoreal123 is 00000000-0000-0000-0009-01fcdcfc7257
+[04:17:04] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Truenoreal123 joined (UUID: 00000000-0000-0000-0009-01fcdcfc7257)
+[04:17:04] [Server thread/INFO]: .Truenoreal123 joined the game
+[04:17:04] [Server thread/INFO]: .Truenoreal123[/127.0.0.1:0] logged in with entity id 820 at ([OneBlock]261.42987, 58.0, 8.502578)
+[04:17:10] [Server thread/INFO]: Akai120 issued server command: /tp .Truenoreal123
+[04:17:10] [Server thread/INFO]: [Akai120: Teleported Akai120 to .Truenoreal123]
+[04:17:27] [Server thread/INFO]: ElRichMC has made the advancement [Ice Bucket Challenge]
+[04:17:33] [localSession-7-3/INFO]: [Geyser-Spigot] Truenoreal123 has disconnected from the Java server because of Bedrock client timed out
+[04:17:33] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .Truenoreal123 disconnected
+[04:17:33] [Server thread/INFO]: .Truenoreal123 lost connection: Disconnected
+[04:17:33] [Server thread/INFO]: .Truenoreal123 left the game
+[04:17:33] [Server thread/INFO]: Akai120 issued server command: /tp ElRichMC
+[04:17:33] [Server thread/INFO]: [Akai120: Teleported Akai120 to ElRichMC]
+[04:17:58] [Server thread/INFO]: ElRichMC fell out of the world
+[04:19:13] [Server thread/INFO]: ElRichMC has made the advancement [Diamonds!]
+[04:19:48] [Server thread/INFO]: ElRichMC fell out of the world
+[04:19:53] [Server thread/INFO]: ElRichMC issued server command: /penelargo
+[04:19:54] [Server thread/INFO]: Akai120 issued server command: /gamemode survival
+[04:19:54] [Server thread/INFO]: [Akai120: Set own game mode to Survival Mode]
+[04:20:34] [Async Chat Thread - #5/INFO]: [Not Secure] <ElRichMC> Y el bloqe
+[04:20:38] [Async Chat Thread - #7/INFO]: [Not Secure] <Akai120> DE QUE
+[04:20:47] [Async Chat Thread - #5/INFO]: [Not Secure] <Akai120> jajajaja
+[04:20:50] [Async Chat Thread - #6/INFO]: [Not Secure] <ElRichMC> de one block bro, porque me gritas
+[04:21:00] [Async Chat Thread - #5/INFO]: [Not Secure] <ElRichMC> No sirbe
