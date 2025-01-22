@@ -1,27 +1,27 @@
-[04:01:03] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[04:01:06] [ServerMain/INFO]: Loaded 7 recipes
-[04:01:07] [Server thread/INFO]: Starting minecraft server version 1.20
-[04:01:07] [Server thread/INFO]: Loading properties
-[04:01:07] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
-[04:01:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[04:01:07] [Server thread/INFO]: Using 4 threads for Netty based IO
-[04:01:07] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[05:16:04] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[05:16:06] [ServerMain/INFO]: Loaded 7 recipes
+[05:16:07] [Server thread/INFO]: Starting minecraft server version 1.20
+[05:16:07] [Server thread/INFO]: Loading properties
+[05:16:08] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[05:16:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:16:08] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:16:08] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[04:01:07] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[04:01:08] [Server thread/INFO]: Default game type: SURVIVAL
-[04:01:08] [Server thread/INFO]: Generating keypair
-[04:01:08] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:01:08] [Server thread/INFO]: Using epoll channel type
-[04:01:08] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[04:01:08] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[04:01:09] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
-[04:01:09] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[04:01:10] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[04:01:10] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[04:01:10] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[04:01:11] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[04:01:11] [Server thread/ERROR]: [ViaVersion] Error initializing plugin 'ViaVersion-5.2.1.jar' in folder 'plugins' (Is it up to date?)
+[05:16:08] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[05:16:08] [Server thread/INFO]: Default game type: SURVIVAL
+[05:16:08] [Server thread/INFO]: Generating keypair
+[05:16:08] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:16:09] [Server thread/INFO]: Using epoll channel type
+[05:16:09] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[05:16:09] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[05:16:10] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[05:16:10] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[05:16:10] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[05:16:11] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[05:16:11] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[05:16:11] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[05:16:11] [Server thread/ERROR]: [ViaVersion] Error initializing plugin 'ViaVersion-5.2.1.jar' in folder 'plugins' (Is it up to date?)
 java.lang.NoSuchMethodError: 'void com.viaversion.viabackwards.protocol.v1_13_1to1_13.rewriter.ItemPacketRewriter1_13_1.registerLevelParticles(com.viaversion.viaversion.api.protocol.packet.ClientboundPacketType, com.viaversion.viaversion.api.type.Type)'
 	at com.viaversion.viabackwards.protocol.v1_13_1to1_13.rewriter.ItemPacketRewriter1_13_1.registerPackets(ItemPacketRewriter1_13_1.java:72) ~[ViaBackwards-5.0.3.jar:?]
 	at com.viaversion.viaversion.api.rewriter.RewriterBase.register(RewriterBase.java:36) ~[ViaVersion-5.2.1.jar:?]
@@ -45,316 +45,119 @@ java.lang.NoSuchMethodError: 'void com.viaversion.viabackwards.protocol.v1_13_1t
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.20.jar:git-Paper-17]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.jar:git-Paper-17]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[04:01:11] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[04:01:11] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[04:01:11] [Server thread/INFO]: [floodgate] Took 660ms to boot Floodgate
-[04:01:11] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.3
-[04:01:11] [Server thread/INFO]: [Oneblock] Loading server plugin Oneblock v1.2.8
-[04:01:11] [Server thread/INFO]: [VoidGen] Loading server plugin VoidGen v2.2.1
-[04:01:11] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.1
-[04:01:11] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
-[04:01:12] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.0-SNAPSHOT
-[04:01:12] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[04:01:12] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[04:01:12] [Server thread/INFO]: [ServerTap] Loading server plugin ServerTap v0.5.4-SNAPSHOT
-[04:01:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[04:01:12] [Server thread/INFO]: [VoidGen] Enabling VoidGen v2.2.1
-[04:01:12] [Server thread/INFO]: [VoidGen] Using VoidChunkGen: VERSION_UNKNOWN
-[04:01:13] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
-[04:01:13] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[04:01:14] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.0.
-[04:01:14] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[04:01:14] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[04:01:14] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
-[04:01:14] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
-[04:01:14] [Server thread/INFO]: [ServerTap] Enabling ServerTap v0.5.4-SNAPSHOT
-[04:01:14] [Server thread/INFO]: [ServerTap] No Vault plugin detected
-[04:01:14] [Server thread/WARN]: [ServerTap] TLS is not enabled.
-[04:01:14] [Server thread/INFO]: [ServerTap] Enabling CORS for *
-[04:01:14] [Server thread/WARN]: [ServerTap] AUTH KEY IS SET TO DEFAULT "change_me"
-[04:01:14] [Server thread/WARN]: [ServerTap] CHANGE THE key IN THE config.yml FILE
-[04:01:14] [Server thread/WARN]: [ServerTap] FAILURE TO CHANGE THE KEY MAY RESULT IN SERVER COMPROMISE
-[04:01:15] [Server thread/INFO]: [io.javalin.Javalin] Starting Javalin ...
-[04:01:15] [Server thread/INFO]: [org.eclipse.jetty.server.Server] jetty-11.0.15; built: 2023-04-11T18:37:53.775Z; git: 5bc5e562c8d05c5862505aebe5cf83a61bdbcb96; jvm 17.0.13+11-Ubuntu-2ubuntu120.04
-[04:01:15] [Server thread/INFO]: [org.eclipse.jetty.server.session.DefaultSessionIdManager] Session workerName=node0
-[04:01:15] [Server thread/INFO]: [org.eclipse.jetty.server.handler.ContextHandler] Started i.j.j.@141878e3{/,null,AVAILABLE}
-[04:01:15] [Server thread/INFO]: [org.eclipse.jetty.server.AbstractConnector] Started ServerConnector@5e0ae1c5{HTTP/1.1, (http/1.1)}{0.0.0.0:4567}
-[04:01:15] [Server thread/INFO]: [org.eclipse.jetty.server.Server] Started Server@1b795a46{STARTING}[11.0.15,sto=0] @23263ms
-[04:01:15] [Server thread/INFO]: [io.javalin.Javalin] Listening on http://localhost:4567/
-[04:01:15] [Server thread/INFO]: [io.javalin.Javalin] You are running Javalin 5.6.2 (released July 31, 2023. Your Javalin version is 540 days old. Consider checking for a newer version.).
-[04:01:15] [Server thread/INFO]: [io.javalin.Javalin] Javalin started in 343ms \o/
-[04:01:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04:01:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[04:01:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04:01:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[04:01:15] [Server thread/INFO]: Preparing level "world"
-[04:01:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[04:01:16] [Server thread/INFO]: Time elapsed: 420 ms
-[04:01:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[04:01:16] [Server thread/INFO]: Time elapsed: 121 ms
-[04:01:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[04:01:16] [Server thread/INFO]: Time elapsed: 108 ms
-[04:01:16] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[04:01:16] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
-[04:01:17] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.13).
-[04:01:17] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
-[04:01:17] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[04:01:18] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.3
-[04:01:18] [Server thread/INFO]: [Oneblock] Enabling Oneblock v1.2.8
-[04:01:18] [Server thread/INFO]: [Oneblock] 
+[05:16:11] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[05:16:12] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[05:16:12] [Server thread/INFO]: [floodgate] Took 603ms to boot Floodgate
+[05:16:12] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.3
+[05:16:12] [Server thread/INFO]: [Oneblock] Loading server plugin Oneblock v1.2.8
+[05:16:12] [Server thread/INFO]: [VoidGen] Loading server plugin VoidGen v2.2.1
+[05:16:12] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.1
+[05:16:12] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
+[05:16:12] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.0-SNAPSHOT
+[05:16:12] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[05:16:12] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[05:16:12] [Server thread/INFO]: [ServerTap] Loading server plugin ServerTap v0.5.4-SNAPSHOT
+[05:16:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:16:12] [Server thread/INFO]: [VoidGen] Enabling VoidGen v2.2.1
+[05:16:12] [Server thread/INFO]: [VoidGen] Using VoidChunkGen: VERSION_UNKNOWN
+[05:16:12] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
+[05:16:13] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[05:16:13] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.0.
+[05:16:13] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[05:16:14] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[05:16:14] [Server thread/WARN]: [SkinsRestorer] Please update your Java runtime to at least Java 21 (your version is 17).
+[05:16:14] [Server thread/WARN]: [SkinsRestorer] At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
+[05:16:14] [Server thread/INFO]: [ServerTap] Enabling ServerTap v0.5.4-SNAPSHOT
+[05:16:14] [Server thread/INFO]: [ServerTap] No Vault plugin detected
+[05:16:14] [Server thread/WARN]: [ServerTap] TLS is not enabled.
+[05:16:14] [Server thread/INFO]: [ServerTap] Enabling CORS for *
+[05:16:14] [Server thread/WARN]: [ServerTap] AUTH KEY IS SET TO DEFAULT "change_me"
+[05:16:14] [Server thread/WARN]: [ServerTap] CHANGE THE key IN THE config.yml FILE
+[05:16:14] [Server thread/WARN]: [ServerTap] FAILURE TO CHANGE THE KEY MAY RESULT IN SERVER COMPROMISE
+[05:16:15] [Server thread/INFO]: [io.javalin.Javalin] Starting Javalin ...
+[05:16:15] [Server thread/INFO]: [org.eclipse.jetty.server.Server] jetty-11.0.15; built: 2023-04-11T18:37:53.775Z; git: 5bc5e562c8d05c5862505aebe5cf83a61bdbcb96; jvm 17.0.13+11-Ubuntu-2ubuntu120.04
+[05:16:15] [Server thread/INFO]: [org.eclipse.jetty.server.session.DefaultSessionIdManager] Session workerName=node0
+[05:16:15] [Server thread/INFO]: [org.eclipse.jetty.server.handler.ContextHandler] Started i.j.j.@595210d3{/,null,AVAILABLE}
+[05:16:15] [Server thread/INFO]: [org.eclipse.jetty.server.AbstractConnector] Started ServerConnector@78e5a0a2{HTTP/1.1, (http/1.1)}{0.0.0.0:4567}
+[05:16:15] [Server thread/INFO]: [org.eclipse.jetty.server.Server] Started Server@556f8910{STARTING}[11.0.15,sto=0] @23531ms
+[05:16:15] [Server thread/INFO]: [io.javalin.Javalin] Listening on http://localhost:4567/
+[05:16:15] [Server thread/INFO]: [io.javalin.Javalin] You are running Javalin 5.6.2 (released July 31, 2023. Your Javalin version is 540 days old. Consider checking for a newer version.).
+[05:16:15] [Server thread/INFO]: [io.javalin.Javalin] Javalin started in 380ms \o/
+[05:16:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:16:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:16:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:16:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:16:15] [Server thread/INFO]: Preparing level "world"
+[05:16:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:16:16] [Server thread/INFO]: Time elapsed: 389 ms
+[05:16:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[05:16:16] [Server thread/INFO]: Time elapsed: 128 ms
+[05:16:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[05:16:16] [Server thread/INFO]: Time elapsed: 111 ms
+[05:16:16] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[05:16:16] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
+[05:16:16] [Server thread/WARN]: [ViaVersion] Please update your Java runtime to at least Java 21 (your version is 17.0.13).
+[05:16:16] [Server thread/WARN]: [ViaVersion] At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[05:16:16] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[05:16:18] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.3
+[05:16:18] [Server thread/INFO]: [Oneblock] Enabling Oneblock v1.2.8
+[05:16:18] [Server thread/INFO]: [Oneblock] 
 ┏━┓····┏━━┓·····┏┓
 ┃┃┣━┳┳━┫┏┓┣┓┏━┳━┫┣┓
 ┃┃┃┃┃┃┻┫┏┓┃┗┫╋┃━┫━┫
 ┗━┻┻━┻━┻━━┻━┻━┻━┻┻┛ by MrMarL
-[04:01:18] [Server thread/ERROR]: [Oneblock] Failed to register events for class Oneblock.Oneblock$ItemsAdderEvent because dev/lone/itemsadder/api/Events/ItemsAdderLoadDataEvent does not exist.
-[04:01:18] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
-[04:01:18] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[04:01:18] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[04:01:19] [Server thread/INFO]: Preparing start region for dimension minecraft:oneblock
-[04:01:19] [Server thread/INFO]: Time elapsed: 572 ms
-[04:01:19] [Server thread/INFO]: Preparing start region for dimension minecraft:oneblock1
-[04:01:20] [Server thread/INFO]: Time elapsed: 149 ms
-[04:01:20] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
-[04:01:20] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[04:01:20] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[04:01:20] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.0-SNAPSHOT
-[04:01:20] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[04:01:20] [Server thread/INFO]: [Geyser-Spigot] 
-[04:01:20] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.0-b745 (git-master-58e2f17)
-[04:01:20] [Server thread/INFO]: [Geyser-Spigot] 
-[04:01:20] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[04:01:29] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 1125
-[04:01:29] [Server thread/INFO]: [Geyser-Spigot] Done (8.689s)! Run /geyser help for help!
-[04:01:29] [Server thread/INFO]: Running delayed init tasks
-[04:01:30] [Server thread/INFO]: Done (22.417s)! For help, type "help"
-[04:01:30] [Server thread/INFO]: Timings Reset
-[04:01:30] [Craft Scheduler Thread - 4 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[04:01:30] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:01:30] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
-[04:01:30] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[04:01:30] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
-[04:01:30] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[04:01:30] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
-[04:01:30] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:01:30] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     Version: 15.5.1
-[04:01:30] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     Commit: d5d8613
-[04:01:30] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
-[04:01:30] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:01:30] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[04:01:30] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[04:01:33] [Craft Scheduler Thread - 1 - Oneblock/INFO]: [Oneblock] Waiting for the initialization of the world
-[04:01:33] [Craft Scheduler Thread - 1 - Oneblock/INFO]: [Oneblock] Trying to initialize the world again...
-[04:01:35] [Craft Scheduler Thread - 1 - Oneblock/INFO]: [Oneblock] The initialization of the world was successful!
-[04:03:09] [User Authenticator #0/INFO]: UUID of player Joacox is aa16fe50-4983-3a9b-8f36-b13d95e69c49
-[04:03:12] [Server thread/INFO]: Joacox joined the game
-[04:03:12] [Server thread/INFO]: Joacox[/127.16.206.76:58727] logged in with entity id 282 at ([world_nether]185.44635582645464, 28.0, 55.01714261418475)
-[04:04:09] [User Authenticator #0/INFO]: UUID of player ElRichMC is fd2d28f2-0c4c-3128-908b-ae777a62d480
-[04:04:09] [Server thread/INFO]: ElRichMC joined the game
-[04:04:09] [Server thread/INFO]: ElRichMC[/127.16.206.76:39377] logged in with entity id 425 at ([OneBlock]3.920405787174852, 44.66789327086878, 9.055500499503133)
-[04:04:19] [Server thread/INFO]: Joacox issued server command: /op ElRichMC
-[04:04:19] [Server thread/INFO]: [Joacox: Made ElRichMC a server operator]
-[04:04:20] [Server thread/INFO]: ElRichMC fell out of the world
-[04:04:50] [Server thread/INFO]: Joacox issued server command: /ob join
-[04:04:56] [Server thread/INFO]: ElRichMC issued server command: /ob join
-[04:05:22] [Server thread/INFO]: Joacox issued server command: /ob invite ElRichMC
-[04:06:00] [Server thread/INFO]: Joacox issued server command: /gamemode creative
-[04:06:00] [Server thread/INFO]: [Joacox: Set own game mode to Creative Mode]
-[04:08:01] [Server thread/INFO]: ElRichMC issued server command: /gamemode survival Joacox
-[04:08:01] [Server thread/INFO]: [ElRichMC: Set Joacox's game mode to Survival Mode]
-[04:08:08] [Server thread/INFO]: Joacox was slain by ElRichMC
-[04:08:16] [Server thread/INFO]: Joacox lost connection: Timed out
-[04:08:16] [Server thread/INFO]: Joacox left the game
-[04:08:20] [Server thread/INFO]: ElRichMC issued server command: /gamemode creative
-[04:08:20] [Server thread/INFO]: [ElRichMC: Set own game mode to Creative Mode]
-[04:08:35] [Server thread/INFO]: ElRichMC issued server command: /gamemode survival
-[04:08:35] [Server thread/INFO]: [ElRichMC: Set own game mode to Survival Mode]
-[04:08:40] [Server thread/INFO]: ElRichMC has completed the challenge [Cover Me in Debris]
-[04:09:14] [Server thread/INFO]: ElRichMC issued server command: /gamemode creativd
-[04:09:21] [Server thread/INFO]: ElRichMC issued server command: /gamemode creative
-[04:09:21] [Server thread/INFO]: [ElRichMC: Set own game mode to Creative Mode]
-[04:10:16] [Server thread/INFO]: ElRichMC issued server command: /deop ElRichMC
-[04:10:16] [Server thread/INFO]: [ElRichMC: Made ElRichMC no longer a server operator]
-[04:10:40] [Server thread/INFO]: ElRichMC fell out of the world
-[04:10:50] [Server thread/INFO]: ElRichMC has made the advancement [We Need to Go Deeper]
-[04:10:52] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Truenoreal123
-[04:10:52] [localSession-7-2/INFO]: [Geyser-Spigot] Truenoreal123 (logged in as: Truenoreal123) has connected to the Java server
-[04:10:52] [Geyser Spigot connection thread-6-3/INFO]: UUID of player .Truenoreal123 is 00000000-0000-0000-0009-01fcdcfc7257
-[04:10:52] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Truenoreal123 joined (UUID: 00000000-0000-0000-0009-01fcdcfc7257)
-[04:10:52] [Server thread/INFO]: .Truenoreal123 joined the game
-[04:10:52] [Server thread/INFO]: .Truenoreal123[/127.0.0.1:0] logged in with entity id 588 at ([OneBlock]308.05298, 58.0, 8.561885)
-[04:11:05] [Server thread/INFO]: ElRichMC issued server command: /ob IDreset
-[04:11:09] [Server thread/INFO]: ElRichMC issued server command: /ob join
-[04:11:26] [localSession-7-2/INFO]: [Geyser-Spigot] Truenoreal123 has disconnected from the Java server because of Bedrock client timed out
-[04:11:26] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Truenoreal123 disconnected
-[04:11:26] [Server thread/INFO]: .Truenoreal123 lost connection: Disconnected
-[04:11:26] [Server thread/INFO]: .Truenoreal123 left the game
-[04:11:28] [Server thread/INFO]: ElRichMC fell out of the world
-[04:11:42] [Server thread/INFO]: ElRichMC fell out of the world
-[04:11:43] [User Authenticator #1/INFO]: UUID of player Akai120 is c7e92eb0-d98e-380c-8bf3-90f90cd9654a
-[04:11:43] [Server thread/INFO]: Akai120 joined the game
-[04:11:43] [Server thread/INFO]: Akai120[/127.117.58.94:44337] logged in with entity id 716 at ([OneBlock]6.030944873598889, 60.0, 7.276678335325093)
-[04:11:48] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Truenoreal123
-[04:11:48] [localSession-7-3/INFO]: [Geyser-Spigot] Truenoreal123 (logged in as: Truenoreal123) has connected to the Java server
-[04:11:49] [Geyser Spigot connection thread-6-4/INFO]: UUID of player .Truenoreal123 is 00000000-0000-0000-0009-01fcdcfc7257
-[04:11:49] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Truenoreal123 joined (UUID: 00000000-0000-0000-0009-01fcdcfc7257)
-[04:11:49] [Server thread/INFO]: .Truenoreal123 joined the game
-[04:11:49] [Server thread/INFO]: .Truenoreal123[/127.0.0.1:0] logged in with entity id 723 at ([OneBlock]308.05298, 58.0, 8.561885)
-[04:12:01] [Server thread/INFO]: ElRichMC fell out of the world
-[04:12:14] [Async Chat Thread - #1/INFO]: [Not Secure] <.Truenoreal123> hasme tp a ti
-[04:12:18] [Async Chat Thread - #2/INFO]: [Not Secure] <Akai120> Estan intentando usar comando
-[04:12:27] [Async Chat Thread - #1/INFO]: [Not Secure] <ElRichMC> quien
-[04:12:28] [localSession-7-3/INFO]: [Geyser-Spigot] Truenoreal123 has disconnected from the Java server because of Bedrock client timed out
-[04:12:28] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .Truenoreal123 disconnected
-[04:12:28] [Server thread/INFO]: .Truenoreal123 lost connection: Disconnected
-[04:12:28] [Server thread/INFO]: .Truenoreal123 left the game
-[04:12:32] [Async Chat Thread - #2/INFO]: [Not Secure] <Akai120> tu xd
-[04:12:34] [Async Chat Thread - #1/INFO]: [Not Secure] <ElRichMC> ?
-[04:12:39] [Async Chat Thread - #2/INFO]: [Not Secure] <ElRichMC> Me acabo de unir xd
-[04:12:39] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Truenoreal123
-[04:12:39] [localSession-7-4/INFO]: [Geyser-Spigot] Truenoreal123 (logged in as: Truenoreal123) has connected to the Java server
-[04:12:40] [Geyser Spigot connection thread-6-1/INFO]: UUID of player .Truenoreal123 is 00000000-0000-0000-0009-01fcdcfc7257
-[04:12:40] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Truenoreal123 joined (UUID: 00000000-0000-0000-0009-01fcdcfc7257)
-[04:12:40] [Server thread/INFO]: .Truenoreal123 joined the game
-[04:12:40] [Server thread/INFO]: .Truenoreal123[/127.0.0.1:0] logged in with entity id 743 at ([OneBlock]308.05298, 58.0, 8.561885)
-[04:12:50] [Async Chat Thread - #2/INFO]: [Not Secure] <Akai120> ./gamemode creative
-[04:12:53] [Server thread/INFO]: ElRichMC fell out of the world
-[04:12:55] [Async Chat Thread - #1/INFO]: [Not Secure] <Akai120> y otros xd
-[04:13:01] [Async Chat Thread - #2/INFO]: [Not Secure] <ElRichMC> Y yo como voy a usar comandos
-[04:13:07] [Server thread/INFO]: ElRichMC issued server command: /gamemode creative
-[04:13:24] [Async Chat Thread - #1/INFO]: [Not Secure] <ElRichMC> Me sale Uknowm command Type help for more
-[04:13:29] [localSession-7-4/INFO]: [Geyser-Spigot] Truenoreal123 has disconnected from the Java server because of Bedrock client timed out
-[04:13:29] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .Truenoreal123 disconnected
-[04:13:29] [Server thread/INFO]: .Truenoreal123 lost connection: Disconnected
-[04:13:29] [Server thread/INFO]: .Truenoreal123 left the game
-[04:13:40] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username Truenoreal123
-[04:13:40] [localSession-7-1/INFO]: [Geyser-Spigot] Truenoreal123 (logged in as: Truenoreal123) has connected to the Java server
-[04:13:40] [Geyser Spigot connection thread-6-2/INFO]: UUID of player .Truenoreal123 is 00000000-0000-0000-0009-01fcdcfc7257
-[04:13:40] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Truenoreal123 joined (UUID: 00000000-0000-0000-0009-01fcdcfc7257)
-[04:13:40] [Server thread/INFO]: .Truenoreal123 joined the game
-[04:13:40] [Server thread/INFO]: .Truenoreal123[/127.0.0.1:0] logged in with entity id 755 at ([OneBlock]258.72543, 58.0, 8.456558)
-[04:13:42] [Server thread/INFO]: Akai120 issued server command: /gamemode creative
-[04:13:42] [Server thread/INFO]: [Akai120: Set own game mode to Creative Mode]
-[04:13:51] [Server thread/INFO]: Villager EntityVillager['Villager'/52, uuid='d980e8d5-e2f7-4b58-9b6a-b330a1064f77', l='ServerLevel[OneBlock]', x=-2.21, y=58.00, z=8.43, cpos=[-1, 0], tl=152774, v=true] died, message: 'Villager was slain by Zombie'
-[04:14:09] [Server thread/INFO]: ElRichMC has made the advancement [Monster Hunter]
-[04:14:31] [localSession-7-1/INFO]: [Geyser-Spigot] Truenoreal123 has disconnected from the Java server because of Bedrock client timed out
-[04:14:31] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .Truenoreal123 disconnected
-[04:14:31] [Server thread/INFO]: .Truenoreal123 lost connection: Disconnected
-[04:14:31] [Server thread/INFO]: .Truenoreal123 left the game
-[04:14:57] [Server thread/INFO]: Akai120 issued server command: /gamemode spectator
-[04:14:57] [Server thread/INFO]: [Akai120: Set own game mode to Spectator Mode]
-[04:15:04] [Server thread/INFO]: Akai120 issued server command: /tp ElRichMC
-[04:15:04] [Server thread/INFO]: [Akai120: Teleported Akai120 to ElRichMC]
-[04:15:13] [Server thread/INFO]: ElRichMC fell out of the world
-[04:15:52] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Truenoreal123
-[04:15:52] [localSession-7-2/INFO]: [Geyser-Spigot] Truenoreal123 (logged in as: Truenoreal123) has connected to the Java server
-[04:15:52] [Geyser Spigot connection thread-6-3/INFO]: UUID of player .Truenoreal123 is 00000000-0000-0000-0009-01fcdcfc7257
-[04:15:52] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Truenoreal123 joined (UUID: 00000000-0000-0000-0009-01fcdcfc7257)
-[04:15:52] [Server thread/INFO]: .Truenoreal123 joined the game
-[04:15:52] [Server thread/INFO]: .Truenoreal123[/127.0.0.1:0] logged in with entity id 803 at ([OneBlock]261.42987, 58.0, 8.502578)
-[04:16:13] [Async Chat Thread - #3/INFO]: [Not Secure] <ElRichMC> Trueno
-[04:16:25] [localSession-7-2/INFO]: [Geyser-Spigot] Truenoreal123 has disconnected from the Java server because of Bedrock client timed out
-[04:16:25] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .Truenoreal123 disconnected
-[04:16:25] [Server thread/INFO]: .Truenoreal123 lost connection: Disconnected
-[04:16:25] [Server thread/INFO]: .Truenoreal123 left the game
-[04:16:49] [Server thread/INFO]: ElRichMC issued server command: /ob IDreset
-[04:16:58] [Server thread/INFO]: ElRichMC fell out of the world
-[04:17:03] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username Truenoreal123
-[04:17:03] [localSession-7-3/INFO]: [Geyser-Spigot] Truenoreal123 (logged in as: Truenoreal123) has connected to the Java server
-[04:17:04] [Geyser Spigot connection thread-6-4/INFO]: UUID of player .Truenoreal123 is 00000000-0000-0000-0009-01fcdcfc7257
-[04:17:04] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Truenoreal123 joined (UUID: 00000000-0000-0000-0009-01fcdcfc7257)
-[04:17:04] [Server thread/INFO]: .Truenoreal123 joined the game
-[04:17:04] [Server thread/INFO]: .Truenoreal123[/127.0.0.1:0] logged in with entity id 820 at ([OneBlock]261.42987, 58.0, 8.502578)
-[04:17:10] [Server thread/INFO]: Akai120 issued server command: /tp .Truenoreal123
-[04:17:10] [Server thread/INFO]: [Akai120: Teleported Akai120 to .Truenoreal123]
-[04:17:27] [Server thread/INFO]: ElRichMC has made the advancement [Ice Bucket Challenge]
-[04:17:33] [localSession-7-3/INFO]: [Geyser-Spigot] Truenoreal123 has disconnected from the Java server because of Bedrock client timed out
-[04:17:33] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .Truenoreal123 disconnected
-[04:17:33] [Server thread/INFO]: .Truenoreal123 lost connection: Disconnected
-[04:17:33] [Server thread/INFO]: .Truenoreal123 left the game
-[04:17:33] [Server thread/INFO]: Akai120 issued server command: /tp ElRichMC
-[04:17:33] [Server thread/INFO]: [Akai120: Teleported Akai120 to ElRichMC]
-[04:17:58] [Server thread/INFO]: ElRichMC fell out of the world
-[04:19:13] [Server thread/INFO]: ElRichMC has made the advancement [Diamonds!]
-[04:19:48] [Server thread/INFO]: ElRichMC fell out of the world
-[04:19:53] [Server thread/INFO]: ElRichMC issued server command: /penelargo
-[04:19:54] [Server thread/INFO]: Akai120 issued server command: /gamemode survival
-[04:19:54] [Server thread/INFO]: [Akai120: Set own game mode to Survival Mode]
-[04:20:34] [Async Chat Thread - #5/INFO]: [Not Secure] <ElRichMC> Y el bloqe
-[04:20:38] [Async Chat Thread - #7/INFO]: [Not Secure] <Akai120> DE QUE
-[04:20:47] [Async Chat Thread - #5/INFO]: [Not Secure] <Akai120> jajajaja
-[04:20:50] [Async Chat Thread - #6/INFO]: [Not Secure] <ElRichMC> de one block bro, porque me gritas
-[04:21:00] [Async Chat Thread - #5/INFO]: [Not Secure] <ElRichMC> No sirbe
-[04:21:19] [Server thread/INFO]: ElRichMC issued server command: /queaprezcaelbloqueparaminar
-[04:22:15] [Server thread/INFO]: Akai120 lost connection: Disconnected
-[04:22:15] [Server thread/INFO]: Akai120 left the game
-[04:22:21] [User Authenticator #2/INFO]: UUID of player Akai120 is c7e92eb0-d98e-380c-8bf3-90f90cd9654a
-[04:22:21] [Server thread/INFO]: Akai120 joined the game
-[04:22:21] [Server thread/INFO]: Akai120[/127.117.58.94:35283] logged in with entity id 831 at ([OneBlock]6.7377490374223, 60.0, 2.6346375520859526)
-[04:22:24] [Async Chat Thread - #9/INFO]: [Not Secure] <ElRichMC> Porqetebas
-[04:22:37] [Async Chat Thread - #8/INFO]: [Not Secure] <ElRichMC> Y aora
-[04:22:58] [Async Chat Thread - #9/INFO]: [Not Secure] <Akai120> hare reset al server
-[04:23:01] [Async Chat Thread - #8/INFO]: [Not Secure] <ElRichMC> ok
-[04:23:05] [Async Chat Thread - #9/INFO]: [Not Secure] <ElRichMC> Grasias
-[04:23:09] [Async Chat Thread - #8/INFO]: [Not Secure] <ElRichMC> te amo we
-[04:23:12] [Server thread/INFO]: Akai120 issued server command: /restart
-[04:23:12] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[04:23:12] [Server thread/INFO]: ElRichMC lost connection: Server is restarting
-[04:23:12] [Server thread/INFO]: ElRichMC left the game
-[04:23:12] [Server thread/INFO]: Akai120 lost connection: Server is restarting
-[04:23:12] [Server thread/INFO]: Akai120 left the game
-[04:23:12] [Server thread/INFO]: Stopping server
-[04:23:12] [Server thread/INFO]: [ServerTap] Disabling ServerTap v0.5.4-SNAPSHOT
-[04:23:12] [Server thread/INFO]: [ServerTap] Disabled Version 0.5.4-SNAPSHOT
-[04:23:12] [Server thread/INFO]: [io.javalin.Javalin] Stopping Javalin ...
-[04:23:12] [Server thread/INFO]: [org.eclipse.jetty.server.Server] Stopped Server@1b795a46{STOPPING}[11.0.15,sto=0]
-[04:23:12] [Server thread/INFO]: [org.eclipse.jetty.server.AbstractConnector] Stopped ServerConnector@5e0ae1c5{HTTP/1.1, (http/1.1)}{0.0.0.0:4567}
-[04:23:12] [Server thread/INFO]: [org.eclipse.jetty.server.handler.ContextHandler] Stopped i.j.j.@141878e3{/,null,STOPPED}
-[04:23:12] [Server thread/INFO]: [io.javalin.Javalin] Javalin has stopped
-[04:23:12] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.0-SNAPSHOT
-[04:23:12] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[04:23:12] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[04:23:12] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
-[04:23:12] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.1
-[04:23:12] [Server thread/INFO]: [VoidGen] Disabling VoidGen v2.2.1
-[04:23:12] [Server thread/INFO]: [Oneblock] Disabling Oneblock v1.2.8
-[04:23:12] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.0.3
-[04:23:12] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[04:23:12] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
-[04:23:12] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[04:23:12] [Server thread/INFO]: Saving players
-[04:23:12] [WebSocketConnectReadThread-81/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[04:23:12] [Server thread/INFO]: Saving worlds
-[04:23:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[04:23:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[04:23:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[04:23:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[04:23:12] [Server thread/INFO]: [ChunkHolderManager] Saved 2 block chunks, 112 entity chunks, 0 poi chunks in world 'world' in 0.03s
-[04:23:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[04:23:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[04:23:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[04:23:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[04:23:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[04:23:12] [Server thread/INFO]: [ChunkHolderManager] Saved 172 block chunks, 113 entity chunks, 0 poi chunks in world 'world_nether' in 0.16s
-[04:23:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[04:23:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[04:23:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[04:23:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[04:23:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[04:23:12] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
-[04:23:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[04:23:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[OneBlock]'/minecraft:oneblock
-[04:23:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'OneBlock'
-[04:23:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'OneBlock'
-[04:23:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'OneBlock'
-[04:23:13] [Server thread/INFO]: [ChunkHolderManager] Saved 612 block chunks, 55 entity chunks, 0 poi chunks in world 'OneBlock' in 0.35s
-[04:23:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (OneBlock): All chunks are saved
-[04:23:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Oneblock1]'/minecraft:oneblock1
-[04:23:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Oneblock1'
-[04:23:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Oneblock1'
-[04:23:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Oneblock1'
-[04:23:13] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'Oneblock1' in 0.00s
-[04:23:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (Oneblock1): All chunks are saved
-[04:23:13] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[04:23:13] [Server thread/INFO]: Flushing Chunk IO
-[04:23:13] [Server thread/INFO]: Closing Thread Pool
-[04:23:13] [Server thread/INFO]: Closing Server
+[05:16:18] [Server thread/ERROR]: [Oneblock] Failed to register events for class Oneblock.Oneblock$ItemsAdderEvent because dev/lone/itemsadder/api/Events/ItemsAdderLoadDataEvent does not exist.
+[05:16:18] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[05:16:18] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[05:16:18] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[05:16:18] [Server thread/INFO]: Preparing start region for dimension minecraft:oneblock
+[05:16:19] [Server thread/INFO]: Time elapsed: 493 ms
+[05:16:19] [Server thread/INFO]: Preparing start region for dimension minecraft:oneblock1
+[05:16:19] [Server thread/INFO]: Time elapsed: 166 ms
+[05:16:19] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
+[05:16:19] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[05:16:19] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[05:16:19] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.0-SNAPSHOT
+[05:16:20] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[05:16:20] [Server thread/INFO]: [Geyser-Spigot] 
+[05:16:20] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.0-b745 (git-master-58e2f17)
+[05:16:20] [Server thread/INFO]: [Geyser-Spigot] 
+[05:16:20] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[05:16:29] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 1125
+[05:16:30] [Server thread/INFO]: [Geyser-Spigot] Done (9.206s)! Run /geyser help for help!
+[05:16:30] [Server thread/INFO]: Running delayed init tasks
+[05:16:30] [Server thread/INFO]: Done (22.866s)! For help, type "help"
+[05:16:30] [Craft Scheduler Thread - 3 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[05:16:30] [Server thread/INFO]: Timings Reset
+[05:16:30] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:16:30] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[05:16:30] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[05:16:30] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
+[05:16:30] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[05:16:30] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[05:16:30] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:16:30] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     Version: 15.5.1
+[05:16:30] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     Commit: d5d8613
+[05:16:30] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
+[05:16:30] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:16:30] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[05:16:30] [Craft Scheduler Thread - 2 - SkinsRestorer/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[05:16:33] [Craft Scheduler Thread - 1 - Oneblock/INFO]: [Oneblock] Waiting for the initialization of the world
+[05:16:33] [Craft Scheduler Thread - 1 - Oneblock/INFO]: [Oneblock] Trying to initialize the world again...
+[05:16:36] [Craft Scheduler Thread - 1 - Oneblock/INFO]: [Oneblock] The initialization of the world was successful!
+[05:16:46] [User Authenticator #0/INFO]: UUID of player Akai120 is c7e92eb0-d98e-380c-8bf3-90f90cd9654a
+[05:16:52] [Server thread/INFO]: Akai120 joined the game
+[05:16:52] [Server thread/INFO]: Akai120[/127.117.58.94:38211] logged in with entity id 294 at ([OneBlock]7.699999988079071, 58.0, 7.699999988079071)
+[05:16:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6225ms or 124 ticks behind
+[05:17:10] [Server thread/INFO]: Akai120 issued server command: /gamemode survival
+[05:17:16] [Server thread/INFO]: Akai120 issued server command: /gamemode spectator
+[05:17:16] [Server thread/INFO]: [Akai120: Set own game mode to Spectator Mode]
+[05:17:26] [Server thread/INFO]: Akai120 issued server command: /gamemode creative
+[05:17:26] [Server thread/INFO]: [Akai120: Set own game mode to Creative Mode]
+[05:18:05] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[05:18:34] [Server thread/INFO]: Akai120 issued server command: /deop DrDonut
+[05:18:34] [Server thread/INFO]: [Akai120: Made DrDonut no longer a server operator]
+[05:18:41] [Server thread/INFO]: Akai120 issued server command: /deop Joacox
+[05:18:41] [Server thread/INFO]: [Akai120: Made Joacox no longer a server operator]
+[05:20:24] [Server thread/INFO]: Akai120 issued server command: /deop Akai120
+[05:20:24] [Server thread/INFO]: [Akai120: Made Akai120 no longer a server operator]
